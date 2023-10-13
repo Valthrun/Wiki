@@ -23,14 +23,77 @@
   <body>
     <div id="app">加载中...</div>
     <script>
+      function generateEditHeader(vm, language) {
+        let editTitle;
+        switch(language) {
+          case "zh-cn":
+            editTitle = "在 GitHub 上编辑";
+            break;
+
+          default:
+            editTitle = "Edit on GitHub";
+            break;
+        }
+        
+        window.editWikiDoc = function() {
+          if(!vm.route.file) {
+            return true;
+          }
+
+          const [ _, filePath ] = vm.route.file.split(`/${language}/`);
+          if(!filePath) {
+            alert(`Failed to determine the file path for: ${vm.route.file}`);
+            return true;
+          }
+
+          window.open(`https://github.com/Valthrun/Wiki/edit/${language}/${filePath}`);
+          event.preventDefault()
+          return false;
+        }
+        
+        
+        return header = [
+          '<div style="overflow: auto;position: fixed;bottom: 0;right: 20px;z-index: 10">',
+          '<p style="float: right"><a style="text-decoration: underline; cursor: pointer"',
+          'onclick="window.editWikiDoc(event)">',
+          editTitle,
+          '</a></p>',
+          '</div>',
+          '\n\n'
+        ].join('')
+      }
+
       window.$docsify = {
         name: 'Valthrun 中文指南',
         repo: 'nkxingxh/Valthrun-CHS',
         loadSidebar: true,
         subMaxLevel: 2,
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(html => {
+              let lang;
+              let match = vm.route.file.match(/https:\/\/raw\.githubusercontent\.com\/Valthrun\/Wiki\/(\S+)\//m);
+              if(match) {
+                lang = match[1];
+              } else {
+                lang = "en-en";
+              }
+
+              document.documentElement.setAttribute('lang', lang);
+              return generateEditHeader(vm, lang) + html;
+            });
+          },
+          function (hook, vm) {
+            hook.beforeEach((markdown) => {
+              const result = markdown.replace(/\]\(_media\//gm, `](${location.origin}/_media/`);
+              return result
+            })
+          }
+        ],
 
         alias: {
-          "/zh-cn/(.*)": "/$1"
+          '/.*/_navbar.md': '/_navbar.md',
+          '/zh-cn/(.*)': 'https://raw.githubusercontent.com/Valthrun/Wiki/zh-cn/$1',
         },
 
         plugins: [
