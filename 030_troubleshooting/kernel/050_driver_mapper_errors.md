@@ -1,5 +1,5 @@
 # KDMapper
-## Nal 已在使用中
+## Nal is already in use
 KDMapper 输出：
 ```
 [-] \Device\Nal is already in use.
