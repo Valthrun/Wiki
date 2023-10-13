@@ -28,13 +28,19 @@
         repo: 'nkxingxh/Valthrun-CHS',
         loadSidebar: true,
         subMaxLevel: 2,
+
+        alias: {
+          "/zh-cn/(.*)": "/$1"
+        },
+
         plugins: [
-          EditOnGithubPlugin.create(
-            'https://github.com/nkxingxh/Valthrun-CHS/tree/master/docs/',
-            null,
-            '在 GitHub 上编辑',
-          ),
-        ],
+          function (hook, vm) {
+            hook.beforeEach((markdown) => {
+              const result = markdown.replace(/\]\(_media\//gm, `](${location.origin}/_media/`);
+              return result
+            })
+          }
+        ]
       };
     </script>
     <!-- Docsify v4 -->

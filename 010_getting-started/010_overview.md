@@ -22,7 +22,7 @@
 
 1. **加载内核驱动 (`vulthrun-driver.sys`)**  
 加载内核驱动程序有多种方法。
-有关如何加载内核驱动程序的详细说明，请参阅[此处](010_getting-started/020_driver.md)的文档。
+有关如何加载内核驱动程序的详细说明，请参阅[此处](/zh-cn/010_getting-started/020_driver.md)的文档。
 
 1. **确保 CS2 正在运行**  
 启动 Valthrun 叠加之前，请确保《反恐精英 2》（CS2）正在运行。

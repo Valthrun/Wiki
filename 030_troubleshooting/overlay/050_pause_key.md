@@ -6,6 +6,6 @@
 1. 按 Windows + R 键
 2. 键入 `osk` 并按回车键
 3. 按右侧的 `PAUSE` 键
-![image of pause key](../../_media/screenshot_virtual_keyboard.png)
+![image of pause key](_media/screenshot_virtual_keyboard.png)
 1. (Optional) Change the Valthrun menu key  
-![image of valthrun overlay](../../_media/screenshot_valthrun_hotkey_toggle_settings.png)
+![image of valthrun overlay](_media/screenshot_valthrun_hotkey_toggle_settings.png)

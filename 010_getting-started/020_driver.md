@@ -21,10 +21,10 @@ Valthrun 旨在兼容各种 Windows 版本。
 
 | 方法 | 操作难度 | 成功率 |
 | --- | --- | --- |
-| [Manual Mapping via KD-Mapper](010_getting-started/010_mapping-method/010_kdmapper.md) | Medium | High |
-| [Manual Mapping via KDU](010_getting-started/010_mapping-method/020_kdu.md) | Medium | Medium |
-| [Using Windows Test-Signing](010_getting-started/010_mapping-method/030_test-signing.md) | Low | Very High |
-| [Manual Mapping via Other Mappers](010_getting-started/010_mapping-method/040_other-mappers.md) | Unknown | Unknown |
+| [Manual Mapping via KD-Mapper](/zh-cn/010_getting-started/010_mapping-method/010_kdmapper.md) | Medium | High |
+| [Manual Mapping via KDU](/zh-cn/010_getting-started/010_mapping-method/020_kdu.md) | Medium | Medium |
+| [Using Windows Test-Signing](/zh-cn/010_getting-started/010_mapping-method/030_test-signing.md) | Low | Very High |
+| [Manual Mapping via Other Mappers](/zh-cn/010_getting-started/010_mapping-method/040_other-mappers.md) | Unknown | Unknown |
 
 每种方法都有各自的复杂程度和成功率。 
 选择使用哪种方法取决于您的具体需求和系统的兼容性。 
