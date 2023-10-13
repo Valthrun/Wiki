@@ -1,4 +1,4 @@
-![Valthrun CS2 Logo](./_media/logo.svg)
+![Valthrun CS2 Logo](_media/logo.svg)
 <p align="right">
 <a href="https://discord.gg/ecKbpAPW5T">
 <img src="https://discordapp.com/api/guilds/1135362291311849693/widget.png?style=shield">
@@ -61,8 +61,8 @@ Valthrun 提供各种外部工具，让您的游戏体验更加精彩。
 > **Use it and face the consequences, or don’t and be safe.**
 
 # 截图
-![](./_media/showcase_01.png)
-![](./_media/showcase_02.png)
+![](_media/showcase_01.png)
+![](_media/showcase_02.png)
 
 # 帮助
 您可以在官方的 Valthrun Discord 服务器上找到帮助:  
