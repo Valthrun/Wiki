@@ -1,5 +1,5 @@
 # 确保已加载驱动程序
 通常是 `valthrun-driver.sys`
 
-[ TODO: screenshot of the message if the driver hasn't been loaded ]
-ATTENTION: Can be confused with "Run as Administrator"
+[ TODO: 如果驱动程序尚未加载，请截图显示信息 ]
+注意：可能会与 "以管理员身份运行 " 混淆

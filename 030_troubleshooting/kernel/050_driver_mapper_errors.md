@@ -1,7 +1,7 @@
 # KDMapper
 ## Nal is already in use
-KDMapper Output:
+KDMapper 输出：
 ```
 [-] \Device\Nal is already in use.
 ```
-Use: https://github.com/VollRagm/NalFix
+使用: https://github.com/VollRagm/NalFix

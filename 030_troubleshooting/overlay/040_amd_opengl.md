@@ -1,34 +1,34 @@
-# AMD driver issues
-Some AMD users may experience some issues when trying to run the Valthrun controller.  
-This issue manifest in various error messages, but two common ones are:
+# AMD 驱动问题
+一些 AMD 用户在尝试执行 Valthrun 控制器时，可能会遇到一些问题。
+这个问题表现为各种错误信息，但常见的有两种：
 - `Unable to find a Vulkan driver`
 - `Failed to load vulkan-1.dll (os error 14001)`
-- The overlay is just black instead of being transparent
+- 叠加层只是黑色而不是透明的
 
-The precise cause of these issues remains unknown, leading to an absence of a universally accepted solution.  
-However, various methods have been reported by some users as effective in addressing these problems.  
+这些问题的确切原因仍不清楚，因此没有一个普遍接受的解决方案。 
+不过，据一些用户报告，有多种方法可以有效解决这些问题。
 
-# Potential Solutions
+# 可能的解决方案
 
-## 1. **Downgrading AMD Driver to 22.11.2**
-For some affected users, downgrading the AMD driver to version 22.11.2 has proven to be a viable solution.  
-To perform this downgrade, users can obtain the driver from the official AMD website or via the following link:
-[AMD Driver 22.11.2](https://www.amd.com/de/support/kb/release-notes/rn-rad-win-22-11-2)
+## 1. **将 AMD 驱动程序降级至 22.11.2**
+对于一些受影响的用户，将 AMD 驱动程序降级到 22.11.2 版已被证明是一个可行的解决方案。 
+要执行降级，用户可从 AMD 官方网站或通过以下链接获取驱动程序：
+[AMD 驱动程序 22.11.2](https://www.amd.com/de/support/kb/release-notes/rn-rad-win-22-11-2)
 
-Discord discussion:  
+Discord 讨论：
 https://discord.com/channels/1135362291311849693/1135362291311849698/1154795646344241303
 
-## 2. **Using AMD's Pro Drivers**
-For certain users encountering this issue, employing AMD's professional-grade drivers may offer a solution.  
-To install the AMD pro drivers, use DDU (Display Driver Uninstaller) and install the AMD pro drivers.
+## 2. **使用 AMD's Pro 驱动**
+对于遇到此问题的某些用户，使用 AMD 的专业级驱动程序可能会提供一种解决方案。 
+要安装 AMD 专业驱动程序，请使用 DDU（显示驱动程序卸载程序）并安装 AMD 专业驱动程序。
 
-## 3. **Copying vulkan-1.dll from Chrome**
-Another approach that has been successful for some users is copying the "vulkan-1.dll" file from their local installation of the Google Chrome web browser and pasting it into the directory where the "controller.exe" for Valthrun is located. 
-This method has resolved the issue for some, making it a potential workaround for those experiencing driver-related problems.  
+## 3. **从 Chrome 浏览器复制 vulkan-1.dll**
+对一些用户来说，另一种成功的方法是从本地安装的 Google Chrome 浏览器中复制 `vulkan-1.dll` 文件，并将其粘贴到 Valthrun 的 `controller.exe` 所在的目录中。
+这个方法已经解决了一些人的问题，对于那些遇到驱动程式相关问题的人来说，这是一个潜在的解决方法。
   
-The `vulkan-1.dll` shipped with Chrome can usually be found in the following folder:  
-`C:\Program Files (x86)\Google\Chrome\Application\` followed by a folder with the Chrome version number.  
+Chrome 浏览器附带的 `vulkan-1.dll` 通常可以在以下文件夹中找到：  
+`C:\Program Files (x86)\Google\Chrome\Application\` 后面是一个带有 Chrome 版本号的文件夹。
   
-**Note:**  
-If this does not solves your issue, ensure you're deleting the `vulkan-1.dll` located along with the `controller.exe`.  
-Keeping the `vulkan-1.dll` may cause some issues on its own.
+**提示:**  
+如果这还不能解决你的问题，请确保你删除了与 `controller.exe` 位于一起的 `vulkan-1.dll`。 
+保留 `vulkan-1.dll` 本身可能会导致一些问题。

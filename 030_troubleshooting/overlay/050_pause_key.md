@@ -4,8 +4,8 @@
 打开菜单后，你可以将这个键更改为你想要的任何键。
 
 1. 按 Windows + R 键
-2. 键入 `osk` 并按回车键
-3. 按右侧的 `PAUSE` 键
-![image of pause key](_media/screenshot_virtual_keyboard.png)
-1. (Optional) Change the Valthrun menu key  
-![image of valthrun overlay](_media/screenshot_valthrun_hotkey_toggle_settings.png)
+2. 输入 `osk` 并按回车键
+3. 按右侧的 `PAUSE` 键
+![image of pause key](../../_media/screenshot_virtual_keyboard.png)
+1. （可选）更改 Valthrun 菜单键
+![image of valthrun overlay](../../_media/screenshot_valthrun_hotkey_toggle_settings.png)
