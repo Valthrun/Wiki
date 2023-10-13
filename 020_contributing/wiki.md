@@ -1,11 +1,11 @@
-# Contributing to the Wiki
-Contributing to the Wiki is a straightforward process that allows individuals to expand and enhance the knowledge base collaboratively. 
-The Wiki is built using Docsify and is stored in the Valthrun repository.  
-All the content within the Wiki can be located in the docs folder,
-and the content files are typically written in Markdown for ease of editing.
+# 为 Wiki 做贡献
+向 Wiki 投稿是一个简单明了的过程，允许个人协作扩展和增强知识库。
+Wiki 使用 Docsify 构建，并存储在 Valthrun 存储库中。 
+Wiki 中的所有内容都位于 docs 文件夹中、
+内容文件通常用 Markdown 编写，便于编辑。
 
-## Adding New Pages
-To contribute by adding new pages to the Wiki, follow these steps:
+## 添加新页面
+要向 Wiki 添加新页面，请按照以下步骤进行：
 
 1. Clone the Valthrun repository to your local machine.
 2. In the `docs` folder, create a new Markdown file (`.md`) with the appropriate content for your new page.
