@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Valthrun Wiki</title>
+    <title>Valthrun 中文指南</title>
     <link rel="icon" href="_media/favicon.ico" />
     <meta name="keywords" content="cs2,counterstrike,gameplay enhancer,cheat,hack" />
     <meta
@@ -21,35 +21,20 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   </head>
   <body>
-    <div id="app">Loading...</div>
+    <div id="app">加载中...</div>
     <script>
       window.$docsify = {
-        name: 'Valthrun Wiki',
-        repo: 'Valthrun/Valthrun',
+        name: 'Valthrun 中文指南',
+        repo: 'nkxingxh/Valthrun-CHS',
         loadSidebar: true,
-        loadNavbar: true,
-        mergeNavbar: true,
         subMaxLevel: 2,
         plugins: [
           EditOnGithubPlugin.create(
-            'https://github.com/Valthrun/Valthrun/tree/master/docs/',
+            'https://github.com/nkxingxh/Valthrun-CHS/tree/master/docs/',
             null,
-            'Edit on GitHub',
+            '在 GitHub 上编辑',
           ),
         ],
-
-        alias: {
-          '/.*/_navbar.md': '/_navbar.md',
-          '/zh-cn/(.*)': '/lang/zh-cn/$1',
-        },
-        name: 'docsify',
-        nameLink: {
-          '/es/': '#/es/',
-          '/de-de/': '#/de-de/',
-          '/ru-ru/': '#/ru-ru/',
-          '/zh-cn/': '#/zh-cn/',
-          '/': '#/',
-        },
       };
     </script>
     <!-- Docsify v4 -->
