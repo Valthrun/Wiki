@@ -58,7 +58,8 @@
           'onclick="window.editWikiDoc(event)">',
           editTitle,
           '</a></p>',
-          '</div>'
+          '</div>',
+          '\n\n'
         ].join('')
       }
 
@@ -74,7 +75,6 @@
             hook.beforeEach(html => {
               let lang;
               let match = vm.route.file.match(/https:\/\/raw\.githubusercontent\.com\/Valthrun\/Wiki\/(\S+)\//m);
-              console.log(match);
               if(match) {
                 lang = match[1];
               } else {
@@ -85,6 +85,12 @@
               return generateEditHeader(vm, lang) + html;
             });
           },
+          function (hook, vm) {
+            hook.beforeEach((markdown) => {
+              const result = markdown.replace(/\]\(_media\//gm, `](${location.origin}/_media/`);
+              return result
+            })
+          }
         ],
 
         alias: {
