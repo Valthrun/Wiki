@@ -1,9 +1,4 @@
 # 加载 Valthrun 驱动程序 (`valthrun-driver.sys`)  
-Loading or mapping a driver can be a complex and challenging task.  
-Typically, drivers are signed with an "Extended Validation Code Sign Certificate."  
-However, acquiring these certificates can be difficult, and they can be easily blocked by third-party software like VAC (Valve Anti-Cheat).  
-As a result, loading the Valthrun driver requires unconventional methods.
-
 加载 Valthrun 驱动程序加载或映射驱动程序可能是一项复杂且具有挑战性的任务。 
 通常，驱动程序会使用「扩展验证代码签名证书」进行数字签名。 
 然而，获取这些证书可能很困难，而且它们很容易被 VAC（Valve Anti-Cheat）等第三方软件阻止。 

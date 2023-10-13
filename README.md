@@ -50,7 +50,7 @@ Valthrun 提供各种外部工具，让您的游戏体验更加精彩。
 
 ## 计划开发的功能
 - 自动瞄准
-- Player competitive ranks / wins
+- 玩家竞技排名/胜场
 
 # VAC
 我们已考虑到[这个链接](https://github.com/dretax/GarHal_CSGO#starting-driver)中提到的相同注意事项。

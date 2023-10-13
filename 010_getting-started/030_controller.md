@@ -3,7 +3,7 @@
 你可以运行 `controller.exe`，启动 Valthrun 控制器。
 如果一切设置正确，你应该会看到一个控制台窗口。
 
-Here's an example of what the overlay's interface might look like:
+下面是叠加层的示例：
 ![Screenshot of Success](_media/screenshot_controller_success.png)
 
 完成这些步骤后，您现在就可以使用 Valthrun 并利用其在《反恐精英 2》中的游戏增强功能了。 
