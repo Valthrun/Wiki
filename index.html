@@ -40,10 +40,11 @@
             return true;
           }
 
-          const [ _, filePath ] = vm.route.file.split(`/${language}/`);
+          let [ _, filePath ] = vm.route.file.split(`/${language}/`);
           if(!filePath) {
-            alert(`Failed to determine the file path for: ${vm.route.file}`);
-            return true;
+            /* path does not contains a language code */
+            filePath = vm.route.file;
+            language = "master";
           }
 
           window.open(`https://github.com/Valthrun/Wiki/edit/${language}/${filePath}`);
