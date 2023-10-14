@@ -24,6 +24,6 @@
   - Valthrun Overlay
     - [Driver has not been loaded](030_troubleshooting/overlay/020_driver_has_not_been_loaded.md)
     - [CS2 issues](030_troubleshooting/overlay/030_cs2.md)
-    - [AMD related issues](030_troubleshooting/overlay/040_amd_opengl.md)
+    - [Vulkan related issues](030_troubleshooting/overlay/040_amd_opengl.md)
     - [Finding the `PAUSE` key](030_troubleshooting/overlay/050_pause_key.md)
     - [Full screen support](030_troubleshooting/overlay/060_full_screen.md)
