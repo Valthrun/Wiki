@@ -7,7 +7,7 @@ Wiki 中的所有内容都位于 docs 文件夹中、
 ## 添加新页面
 要向 Wiki 添加新页面，请按照以下步骤进行：
 
-1. 克隆 Valthrun 资源库到本地计算机。
+1. 克隆 Valthrun 存储库到本地计算机。
 2. 在 `docs` 文件夹中，创建一个新的 Markdown 文件 (`.md`)，为你的新页面添加适当的内容。
 3. 为了确保你的新页面能从侧边栏读取，你必须编辑 `_sidebar.md` 文档，并加入链接到你新建立的页面。
   
@@ -21,7 +21,7 @@ Wiki 中的所有内容都位于 docs 文件夹中、
 npm i docsify-cli -g
 ```
 
-2. 安装 Docsify 后，导航到 Valthrun 资源库，其中有 `docs` 文件夹。
+2. 安装 Docsify 后，导航到 Valthrun 存储库，其中有 `docs` 文件夹。
 3. 运行以下命令，为本地 Wiki 提供服务：
 ```
 docsify serve docs
