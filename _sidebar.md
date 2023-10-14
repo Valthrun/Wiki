@@ -24,6 +24,6 @@
   - Valthrun Overlay
     - [驱动未加载](/zh-cn/030_troubleshooting/overlay/020_driver_has_not_been_loaded.md)
     - [CS2 问题](/zh-cn/030_troubleshooting/overlay/030_cs2.md)
-    - [AMD 相关问题](/zh-cn/030_troubleshooting/overlay/040_amd_opengl.md)
+    - [Vulkan 相关问题](/zh-cn/030_troubleshooting/overlay/040_amd_opengl.md)
     - [寻找 `PAUSE` 键](/zh-cn/030_troubleshooting/overlay/050_pause_key.md)
     - [全屏支持](/zh-cn/030_troubleshooting/overlay/060_full_screen.md)
