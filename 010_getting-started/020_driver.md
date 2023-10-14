@@ -16,20 +16,20 @@ Valthrun 旨在兼容各种 Windows 版本。
 
 | 方法 | 操作难度 | 成功率 |
 | --- | --- | --- |
-| [Manual Mapping via KD-Mapper](/zh-cn/010_getting-started/010_mapping-method/010_kdmapper.md) | Medium | High |
-| [Manual Mapping via KDU](/zh-cn/010_getting-started/010_mapping-method/020_kdu.md) | Medium | Medium |
-| [Using Windows Test-Signing](/zh-cn/010_getting-started/010_mapping-method/030_test-signing.md) | Low | Very High |
-| [Manual Mapping via Other Mappers](/zh-cn/010_getting-started/010_mapping-method/040_other-mappers.md) | Unknown | Unknown |
+| [Manual Mapping via KD-Mapper](/zh-cn/010_getting-started/010_mapping-method/010_kdmapper.md) | 中等 | 高 |
+| [Manual Mapping via KDU](/zh-cn/010_getting-started/010_mapping-method/020_kdu.md) | 中等 | 中等 |
+| [Using Windows Test-Signing](/zh-cn/010_getting-started/010_mapping-method/030_test-signing.md) | 低 | 非常高 |
+| [Manual Mapping via Other Mappers](/zh-cn/010_getting-started/010_mapping-method/040_other-mappers.md) | 未知 | 未知 |
 
 每种方法都有各自的复杂程度和成功率。 
 选择使用哪种方法取决于您的具体需求和系统的兼容性。 
 有关每种映射方法的详细信息，请参阅链接的资源。
 
-## Mapping with Community-Made Scripts
-In addition to the manual methods of mapping the Valthrun driver, there are community-made scripts available that simplify the process.  
-These scripts are often developed and shared by members of the Valthrun community.  
-While these scripts can be convenient, it's important to note that they are not officially provided by Valthrun, and their success rate may vary. 
+## 使用社区自制脚本进行映射
+除了手动映射 Valthrun 驱动程序的方法外，还有社区制作的脚本可简化这一过程。  
+这些脚本通常由 Valthrun 社区成员开发和共享。  
+虽然这些脚本很方便，但需要注意的是，它们并非由 Valthrun 官方提供，其成功率可能会有所不同。  
   
-- [Valthrunners' Script](010_getting-started/010_mapping-method/110_community_script_valthrunner.md)
+- [Valthrunners 脚本](010_getting-started/010_mapping-method/110_community_script_valthrunner.md)
   
-TODO: Add the other scripts
+TODO: 添加其他脚本

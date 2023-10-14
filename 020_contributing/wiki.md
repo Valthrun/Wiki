@@ -7,34 +7,34 @@ Wiki 中的所有内容都位于 docs 文件夹中、
 ## 添加新页面
 要向 Wiki 添加新页面，请按照以下步骤进行：
 
-1. Clone the Valthrun repository to your local machine.
-2. In the `docs` folder, create a new Markdown file (`.md`) with the appropriate content for your new page.
-3. To ensure that your new page is accessible from the sidebar, you must also edit the `_sidebar.md` file and include a link to your newly created page.
+1. 克隆 Valthrun 存储库到本地计算机。
+2. 在 `docs` 文件夹中，创建一个新的 Markdown 文件 (`.md`)，为你的新页面添加适当的内容。
+3. 为了确保你的新页面能从侧边栏读取，你必须编辑 `_sidebar.md` 文档，并加入链接到你新建立的页面。
   
 
-## Previewing Changes
-To preview any changes you make to the Wiki pages before finalizing them, you can follow these steps:
+## 预览变化
+要在最终确定之前预览对 Wiki 页面所做的任何更改，可以按照以下步骤进行：
 
-1. Install Docsify on your local machine. You can install Docsify using npm (Node Package Manager).  
-If you don't have npm installed, you can get it [here](https://www.npmjs.com/).
+1. 在本地计算机上安装 Docsify。您可以使用 npm（节点软件包管理器）安装 Docsify。 
+如果没有安装 npm，可以 [此处](https://www.npmjs.com/) 获取。
 ```bash
 npm i docsify-cli -g
 ```
 
-2. Once Docsify is installed, navigate to the Valthrun repository, where the `docs` folder is located.
-3. Run the following command to serve the Wiki locally:
+2. 安装 Docsify 后，导航到 Valthrun 存储库，其中有 `docs` 文件夹。
+3. 运行以下命令，为本地 Wiki 提供服务：
 ```
 docsify serve docs
 ```
-4. Docsify will provide you with a URL that you can open in your web browser.   
-Any changes you make to the content files will be immediately reflected on the live preview page, 
-allowing you to see how your edits will appear to users.
+4. Docsify 将为您提供一个 URL，您可以在网络浏览器中打开该 URL。  
+您对内容文件所做的任何更改都会立即反映在实时预览页面上、 
+让您可以看到您的编辑将如何呈现给用户。
 
-This live preview feature provides a convenient way to review your
-contributions and ensure that they are accurate and well-formatted before publishing them.
+这种实时预览功能提供了一种方便的方式来审查您的文章。
+在发布文章之前，确保文章准确无误、格式规范。
   
 
-## More about docsify
-For more information about Docsify and its capabilities, you can refer to the official Docsify documentation: [Docsify Documentation](https://docsify.js.org/#/).  
-This resource offers detailed information and tips on using Docsify effectively for
-building and maintaining Wikis and other documentation projects.
+## 关于 docsify 的更多信息
+有关 Docsify 及其功能的更多信息，请参阅 Docsify 官方文档： [Docsify 文档](https://docsify.js.org/#/)。  
+该资源提供了有关如何有效使用 Docsify 的详细信息和技巧，以
+构建和维护维基及其他文档项目的详细信息和技巧。
