@@ -5,7 +5,7 @@
     - [通过 KD-Mapper 手动映射](/zh-cn/010_getting-started/010_mapping-method/010_kdmapper.md)
     - [通过 KDU 手动映射](/zh-cn/010_getting-started/010_mapping-method/020_kdu.md)
     - [Windows 测试签名](/zh-cn/010_getting-started/010_mapping-method/030_test-signing.md)
-    - [Manual mapping via other mappers](/zh-cn/010_getting-started/010_mapping-method/040_other-mappers.md)
+    - [使用其他映射器](/zh-cn/010_getting-started/010_mapping-method/040_other-mappers.md)
   - [启动控制器](/zh-cn/010_getting-started/030_controller.md)
 - 贡献
   - [添加指南内容](/zh-cn/020_contributing/wiki.md)

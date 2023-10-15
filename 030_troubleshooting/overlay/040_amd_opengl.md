@@ -25,11 +25,11 @@ Chrome 浏览器附带的 `vulkan-1.dll` 通常可以在以下文件夹中找到
 如果这还不能解决你的问题，请确保你删除了与 `controller.exe` 位于一起的 `vulkan-1.dll`。 
 保留 `vulkan-1.dll` 本身可能会导致一些问题。
 
-## 3. **Installing the Vulkan Runtime**
-Another possible solution, especially when you get a Vulkan error might be, to install the Vulkan Runtime.  
-The Vulkan Runtime can be obtained here: https://vulkan.lunarg.com/sdk/home  
+## 3. **安装 Vulkan 运行时**
+另一个可能的解决方案是安装 Vulkan Runtime，尤其是在出现 Vulkan 错误时。
+可从此处获取 Vulkan Runtime：https://vulkan.lunarg.com/sdk/home  
 Download and install the `Runtime - Runtime Installer`.  
-![Vulkan Runtime](_media/screenshot_vulkan_runtime.png)
+![Vulkan 运行时](_media/screenshot_vulkan_runtime.png)
 
 ## 4. **将 AMD 驱动程序降级至 22.11.2**
 对于一些受影响的用户，将 AMD 驱动程序降级到 22.11.2 版已被证明是一个可行的解决方案。 
