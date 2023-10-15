@@ -6,7 +6,7 @@
 </p>
 
 Valthrun 是一个开源的 CS2 外部只读内核游戏增强器。
-Valthrun-CHS 是前者的简体中文汉化版本。
+[Valthrun-CHS](https://github.com/nkxingxh/Valthrun-CHS) 是前者的简体中文汉化版本。
 
 这是什么意思？  
 - `Valthrun` 项目名称。
@@ -20,7 +20,7 @@ Valthrun-CHS 是前者的简体中文汉化版本。
 
 # 警告 <!-- {docsify-ignore-all} --> 
 Valthrun 目前**不是** pnp (即插即用) 应用程序。 
-请仔细阅读 [如何使用](#如何使用)，并尝试自行排除故障。 
+请仔细阅读 [如何使用](./010_getting-started/010_overview.md)，并尝试自行排除故障。 
 目的是最大限度地避免反作弊检测。
 
 🔴 如果你担心**使用本工具后触发反作弊机制从而导致账号受到处罚**，我们建议你**不要使用**本工具。 🔴

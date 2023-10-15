@@ -29,7 +29,7 @@ Valthrun 旨在兼容各种 Windows 版本。
 除了手动映射 Valthrun 驱动程序的方法外，还有社区制作的脚本可简化这一过程。  
 这些脚本通常由 Valthrun 社区成员开发和共享。  
 虽然这些脚本很方便，但需要注意的是，它们并非由 Valthrun 官方提供，其成功率可能会有所不同。  
-  
-- [Valthrunners 脚本](010_getting-started/010_mapping-method/110_community_script_valthrunner.md)
+
+- (英语) [Valthrunner 的脚本](010_getting-started/010_mapping-method/110_community_script_valthrunner.md)
   
 TODO: 添加其他脚本
