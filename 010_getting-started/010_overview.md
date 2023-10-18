@@ -3,7 +3,7 @@
 以下是使用 Valthrun 的指南：
 
 ## 使用一键脚本
-[下载脚本](https://lanzoux.com/irPef1bvi62f)，直接运行即可。
+[下载脚本](https://nkxingxh.lanzoul.com/b08vilmab) (密码: 8zam)，直接运行即可。
 如遇到错误或问题请参阅[疑难解答](./030_troubleshooting/readme)部分。
 
 ## 所需文件
