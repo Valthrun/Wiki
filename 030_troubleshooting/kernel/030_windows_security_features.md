@@ -9,6 +9,8 @@ I highly recommand keeping them enabled, but for Valthrun to work a few must be 
 ## Disable Core Isolation
 For details please visit:  
 https://support.microsoft.com/en-us/windows/a-driver-can-t-load-on-this-device-8eea34e5-ff4b-16ec-870d-61a4a43b3dd5
+
+TLDR: Windows Security/Defender > Device security > Core isolation details > Turn off Memory integrity
   
 TODO: Why?
 
@@ -16,6 +18,8 @@ TODO: Why?
 KDMapper output: `NTSTATUS (0xC0000428): Windows cannot verify the digital signature for this file`
 https://www.thewindowsclub.com/microsoft-vulnerable-driver-blocklist-in-windows
 https://community.amd.com/t5/drivers-software/amd-driver-problem/m-p/474646#M144661
+
+TLDR: Windows Security/Defender > Device security > Core isolation details > Turn off Microsoft Vulnerable Driver Blocklist
 
 ATTENTION: You have to restart your PC afterwards.
 TODO: Why?
@@ -30,3 +34,4 @@ Run as admin in a cmd:
 ```
 bcdedit /set hypervisorlaunchtype off
 ```
+then restart your computer.
