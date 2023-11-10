@@ -42,7 +42,7 @@ The source, containing all these definitions can be found [here](https://github.
 Replace the `cs2_schema.json` located at `cs2-schema/generated/cs2_schema.json` with the newly dumped schema.
   
 3. Recompile the controller  
-Recompile the controller as described [here](https://github.com/WolverinDEV/Valthrun/blob/master/BUILD.MD#2-overlay).
+Recompile the controller as described [here](/020_contributing/build).
   
 Most likely you'll be good to go and ready for the next update of CS2.  
 If the Valthrun still behaves badly or generates an error, it might be an indication that some of the hard-coded offsets have changed.
