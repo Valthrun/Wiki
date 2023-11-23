@@ -1,4 +1,4 @@
-# Building Valthrun
+# Building the Valthrun CS2 Overlay
 ## 0. Prerequiresits
 Valthrun requires the [Rust](https://www.rust-lang.org/learn/get-started) toolchain to be compiled.
 

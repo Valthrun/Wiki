@@ -10,6 +10,7 @@
 - Contributing
   - [Adding Wiki contents](020_contributing/wiki.md)
   - [Building from source](020_contributing/build.md)
+  - [Building the radar](020_contributing/radar.md)
   - [Offsets](020_contributing/offsets.md)
 - Troubleshooting
   - [General Information](030_troubleshooting/readme.md)
