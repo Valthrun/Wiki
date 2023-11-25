@@ -36,5 +36,36 @@ Download and install the `Runtime - Runtime Installer`.
 要执行降级，用户可从 AMD 官方网站或通过以下链接获取驱动程序：
 [AMD 驱动程序 22.11.2](https://www.amd.com/de/support/kb/release-notes/rn-rad-win-22-11-2)
 
-Discord 讨论：
+Discord 讨论:  
 https://discord.com/channels/1135362291311849693/1135362291311849698/1154795646344241303
+
+## 5. **Configuring Vulkan using Vulkan Configurator / Opening Vulkan Configurator for detection problems and FPS issues**
+Another possible solution for any AMD Driver version is directly configuring how vulkan interacts with the controller application or just opening up the configurator alone for some reason has something to do with how vulkan acts with the controller.
+If opening up the Vulkan Configurator alone doesn't help users situation, following the steps below could prove viable for getting most versions of drivers to work
+
+I have now fixed vulkan detection and low fps issues using the Vulkan configurator, this is what worked for me it may not work for everyone its just my findings. 
+
+
+detection problems 
+-----
+
+Step 1 - click any of the three configurations ![image](https://github.com/Valthrun/Wiki/assets/60718218/8e5af2be-9d01-4df5-a5b2-7ab1eba4ecda)
+
+Step 2 - Next go to application launcher and click the 3 dots circled in the image ![image](https://github.com/Valthrun/Wiki/assets/60718218/99f63152-6820-4245-a7f4-f4343a834da2)
+
+step 3 - click add and add the controller.exe file as an option
+![image](https://github.com/Valthrun/Wiki/assets/60718218/4a292d93-3566-418b-b9b7-6bea549c6a35)
+
+Step 4 - press launch 
+
+FPS issues
+-----
+step 1 - open vulkan configurator 
+
+step 2 - you will see an area that says vulkan layers configurations go to portability, synchronization, and validation and set each one to Reduced-overhead preset in the settings 
+![image](https://github.com/Valthrun/Valthrun/assets/60718218/76e5023f-874a-4376-9d8a-4dcfb69497cd)
+
+step 3 - as stated in detection problems use one of the three options that you just configured to see which works for you. (usually portability or synchronization) 
+
+
+

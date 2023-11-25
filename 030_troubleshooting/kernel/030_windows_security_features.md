@@ -9,6 +9,8 @@
 ## 禁用核心隔离
 详情请访问  
 https://support.microsoft.com/en-us/windows/a-driver-can-t-load-on-this-device-8eea34e5-ff4b-16ec-870d-61a4a43b3dd5
+
+TLDR: Windows Security/Defender > Device security > Core isolation details > Turn off Memory integrity
   
 TODO: Why?
 
@@ -16,6 +18,8 @@ TODO: Why?
 KDMapper 输出: `NTSTATUS (0xC0000428): Windows cannot verify the digital signature for this file`
 https://www.thewindowsclub.com/microsoft-vulnerable-driver-blocklist-in-windows
 https://community.amd.com/t5/drivers-software/amd-driver-problem/m-p/474646#M144661
+
+TLDR: Windows Security/Defender > Device security > Core isolation details > Turn off Microsoft Vulnerable Driver Blocklist
 
 注意：之后必须重新启动电脑。
 TODO: Why?
@@ -30,3 +34,4 @@ TODO: Why?
 ```
 bcdedit /set hypervisorlaunchtype off
 ```
+then restart your computer.

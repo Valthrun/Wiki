@@ -40,6 +40,9 @@ CS2 有一个方便的系统，可以检索服务器和客户端共享变量的�
 1. 更新 `cs2_schema.json`  
 用新转储的模式替换位于 `cs2-schema/generated/cs2_schema.json` 的 `cs2_schema.json`。
   
+1. 更新 `cs2_schema.json`  
+用新转储的模式替换位于 `cs2-schema/generated/cs2_schema.json` 的 `cs2_schema.json` 文件。
+  
 1. 重新编译控制器  
 按照[此处](https://github.com/WolverinDEV/Valthrun/blob/master/BUILD.MD#2-overlay)所述重新编译控制器。
   

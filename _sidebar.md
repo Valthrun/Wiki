@@ -10,6 +10,7 @@
 - 贡献
   - [添加指南内容](/zh-cn/020_contributing/wiki.md)
   - [从源代码构建](/zh-cn/020_contributing/build.md)
+  - [构建雷达](/zh-cn/020_contributing/radar.md)
   - [偏移量](/zh-cn/020_contributing/offsets.md)
 - 疑难解答
   - [常见信息](/zh-cn/030_troubleshooting/readme.md)

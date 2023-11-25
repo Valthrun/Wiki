@@ -1,4 +1,4 @@
-# 构建 Valthrun
+# 构建 Valthrun 控制器
 ## 0. 前提条件
 Valthrun 需要 [Rust](https://www.rust-lang.org/learn/get-started) 工具链进行编译。
 
