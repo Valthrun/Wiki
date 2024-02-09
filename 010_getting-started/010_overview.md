@@ -1,13 +1,12 @@
 # How to Use Valthrun
-To use Valthrun, you will need to follow several steps to set up the required components and run the Valthrun overlay. 
-Here is a guide on how to use Valthrun:
-
-## 🚀 Valthrunner's Community Script
-![header](https://github.com/Valthrun/Wiki/as
-
-Automate everything effortlessly with Valthrunner's script by [@valthrunner](https://github.com/valthrunner). Update Valthrun, map the driver, auto-start CS2, and run Valth with just a click!
-
-Get started now: **[Find Valthrunner's Script here](010_getting-started/010_mapping-method/110_community_script_valthrunner.md)**
+To use Valthrun, you will need to follow several steps to set up the required components and run the Valthrun overlay.  
+The following steps will guide you one by one on how to use Valthrun.  
+  
+**Advertisement**  
+Lazy doeing all these steps manually?  
+Automate everything effortlessly with Valthrunner's script by [@valthrunner](https://github.com/valthrunner).  
+Update Valthrun, map the driver, auto-start CS2, and run Valthrun with just a click!  
+More information can be found here: [Valthrunner's Script](010_getting-started/010_mapping-method/110_community_script_valthrunner.md)
 
 ## Required Files
 Before you can use Valthrun, you must acquire two essential components:
