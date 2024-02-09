@@ -14,7 +14,7 @@
   - [Offsets](020_contributing/offsets.md)
 - Troubleshooting
   - [General Information](030_troubleshooting/readme.md)
-  - [Valthrun Driver](030_troubleshooting/kernel/000_readme.md)
+  - Valthrun Driver
     - [Run as administrator](030_troubleshooting/kernel/010_run_as_administrator.md)
     - [Path contains invalid characters](030_troubleshooting/kernel/020_path_invalid_characters.md)
     - [Windows securit features](030_troubleshooting/kernel/030_windows_security_features.md)
@@ -28,3 +28,5 @@
     - [Vulkan related issues](030_troubleshooting/overlay/040_amd_opengl.md)
     - [Finding the `PAUSE` key](030_troubleshooting/overlay/050_pause_key.md)
     - [Full screen support](030_troubleshooting/overlay/060_full_screen.md)
+- General knowledge
+  - [Valthrun and false positives](040_general/010_virus_false_positives.md)

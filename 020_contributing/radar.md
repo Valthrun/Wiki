@@ -15,7 +15,7 @@ cargo r
 ```
 
 2. Start the standalone radar client (cs2 needs to be open)
- ```
+```
 cd radar\client-standalone
 cargo r -- -s 127.0.0.1:7228
 ```

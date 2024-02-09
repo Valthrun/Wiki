@@ -31,5 +31,3 @@ These scripts are often developed and shared by members of the Valthrun communit
 While these scripts can be convenient, it's important to note that they are not officially provided by Valthrun, and their success rate may vary. 
   
 - [Valthrunners' Script](010_getting-started/010_mapping-method/110_community_script_valthrunner.md)
-  
-TODO: Add the other scripts
