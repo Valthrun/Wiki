@@ -21,12 +21,12 @@ If you don't have npm installed, you can get it [here](https://www.npmjs.com/).
 npm i docsify-cli -g
 ```
 
-2. Once Docsify is installed, navigate to the Valthrun repository, where the `docs` folder is located.
-3. Run the following command to serve the Wiki locally:
+1. Run the following command to serve the Wiki locally:
 ```
-docsify serve docs
+docsify serve .
 ```
-4. Docsify will provide you with a URL that you can open in your web browser.   
+
+1. Docsify will provide you with a URL that you can open in your web browser.   
 Any changes you make to the content files will be immediately reflected on the live preview page, 
 allowing you to see how your edits will appear to users.
 
