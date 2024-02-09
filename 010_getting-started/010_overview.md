@@ -2,6 +2,41 @@
 To use Valthrun, you will need to follow several steps to set up the required components and run the Valthrun overlay. 
 Here is a guide on how to use Valthrun:
 
+## Valthrunner's Script
+![header](https://github.com/Valthrun/Wiki/assets/131185036/10be1413-e33e-4248-b96e-e643a68c5946)
+
+Valthrunner's **unofficial** Script, created by [@valthrunner](https://github.com/valthrunner), **automates everything**.
+
+### Features:
+- **Automatic Updates:** Fetches the latest necessary files seamlessly.
+- **Driver Mapping:** Maps the driver effortlessly.
+- **Convenience:** Simplifies running Valthrun*.
+
+### Get Started :rocket:
+
+1. **Download the Script**: [Release](https://github.com/valthrunner/Valthrun/releases/latest/download/run.bat) (recommended) _or [Main branch](https://github.com/valthrunner/Valthrun/raw/main/run.bat)_.
+
+2. **Run the Script** - Double-click the script (run.bat).
+
+3. **Adjust Video Settings**: Ensure CS2 is in fullscreen windowed or windowed mode for the overlay to display correctly.
+
+4. **Configure Valthrun**: Press the PAUSE key and configure Valthrun to your liking (if that key is missing, check out: [Finding the PAUSE key](https://wiki.valth.run/#/030_troubleshooting/overlay/050_pause_key)).
+
+5. **Show Some Love**: Add a Star to these repos: [Script](https://github.com/valthrunner/Valthrun) & [Valthrun](https://github.com/valthrunner/Valthrun)! :star2:
+
+6. **Enjoy** :tada:! 
+
+### Script Support:
+For assistance or troubleshooting **regarding the Script**, visit #support-run-script on [Discord](https://discord.gg/ecKbpAPW5T).
+
+If you have any issues with the sciprt you can find support in #support-run-script on [the Discord](https://discord.gg/ecKbpAPW5T)
+
+---
+
+### Note:
+- This script is **unofficial** and **not** maintained or developed by [@WolverinDEV](https://github.com/WolverinDEV).
+- Enjoy the convenience, but use at your own discretion.
+
 ## Required Files
 Before you can use Valthrun, you must acquire two essential components:
 
