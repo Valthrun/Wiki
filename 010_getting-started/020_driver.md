@@ -17,10 +17,12 @@ Here is a quick overview of various methods that can be used to load the Valthru
 | Method | Complexity | Success Rate |
 | --- | --- | --- |
 | [Manual Mapping via KD-Mapper](010_getting-started/010_mapping-method/010_kdmapper.md) | Medium | High |
-| [Manual Mapping via KDU](010_getting-started/010_mapping-method/020_kdu.md) | Medium | Medium |
+| [Manual Mapping via KDU](010_getting-started/010_mapping-method/020_kdu.md)* | Medium | Medium |
 | [Using Windows Test-Signing](010_getting-started/010_mapping-method/030_test-signing.md) | Low | Very High |
-| [Manual Mapping via Other Mappers](010_getting-started/010_mapping-method/040_other-mappers.md) | Unknown | Unknown |
+| [Manual Mapping via Other Mappers](010_getting-started/010_mapping-method/040_other-mappers.md)* | Unknown | Unknown |
 
+\* The wiki entry for this method has not yet been completed
+    
 Each method has its own level of complexity and success rate.  
 The choice of which method to use will depend on your specific needs and the compatibility of your system.  
 Further details about each mapping method can be found in the linked resources.
