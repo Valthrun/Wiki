@@ -1,10 +1,41 @@
-# Mapping `valthrun-driver.sys` with @Valthrunners' script
-1. Download **controller.exe** and **valthrun-driver.sys** from <https://github.com/WolverinDEV/Valthrun/releases/latest>
-2. Download **kdmapper.exe** and **run.bat**  from <https://github.com/valthrunner/Valthrun/releases/latest> (*ATTENTION*: External source!)
-3. If not already put everything (all .exe files and the .bat file) in the same folder
-4.  Start CS2
-5. Double click run.bat (every .exe file needs to be named correctly!!!)  
-_for example controller (1).exe wont work they need to be named like above!_
-1. Press **PAUSE/BREAK** key and configure Valthrun like you want (if you're missing that key check out: [Finding the PAUSE key](030_troubleshooting/overlay/050_pause_key.md))  
-_if the Menu doesn't show maybe you are in fullscreen change to fullscreen windowed_
-1. **Enjoy **:tada:  and **ADD A STAR  TO THE PROJECT ON GITHUB <https://github.com/WolverinDEV/Valthrun/>**
+# All in one setup script by Valthrunner
+## Features
+- :rocket: **Automatic Updates:** Fetches the latest necessary files seamlessly.
+- :sparkles: **Driver Mapping:** Maps the driver effortlessly.
+- ⚡ **Convenience:** Simplifies running Valthrun and CS2.
+
+## Get Started :rocket:
+
+1. **Download the Script**: [Release](https://github.com/valthrunner/Valthrun/releases/latest/download/run.bat) (recommended) _or [Main branch](https://github.com/valthrunner/Valthrun/raw/main/run.bat)_.
+
+2. **Run the Script**: Double-click the script (run.bat).
+
+3. **Adjust Video Settings**: Ensure CS2 is in fullscreen windowed or windowed mode for the overlay to display correctly.
+
+4. **Configure Valthrun**: Press the PAUSE key and configure Valthrun to your liking (if you can't find the key, check out: [Finding the PAUSE key](030_troubleshooting/overlay/050_pause_key)).
+
+5. **Show Some Love**: Add a Star to these repos: [Script](https://github.com/valthrunner/Valthrun) & [Valthrun](https://github.com/Valthrun/Valthrun)! :star2:
+
+6. **Enjoy** :tada:! 
+
+## Shareable Radar 📡
+Quick Note: the radar Script runs both Valthrun and the standalone radar ^^
+
+1. **Download** [here](https://github.com/valthrunner/Valthrun/releases/latest/download/run_radar.bat)
+
+2. **Run the Script** - Simply double-click the script (run_radar.bat).
+
+3. **Open** https://radar.valth.run/ and enter the code you got
+
+4. **Send** the link to your friends!
+
+5. **Enjoy** :tada:! 
+
+## Script Support:
+For assistance or troubleshooting **regarding the Script**, visit `#support-run-script` on the official [Valthrun Discord](https://discord.gg/ecKbpAPW5T).
+
+---
+
+![image](../../../_media/showcase_valthrunners_script.png)
+
+---
