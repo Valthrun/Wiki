@@ -10,6 +10,9 @@ The base for the kernel driver started open source and is still available within
   
 ## 2. Overlay
 ```ps1
+# Initialize all submodules
+git submodule update --init
+
 # Create a release overlay build
 # The result will be located at "target/release/controller"
 cargo build --release

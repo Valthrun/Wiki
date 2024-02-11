@@ -45,21 +45,19 @@ If opening up the Vulkan Configurator alone doesn't help users situation, follow
 
 I have now fixed vulkan detection and low fps issues using the Vulkan configurator, this is what worked for me it may not work for everyone its just my findings. 
 
+### Fixing vulkan detection issues
+Step 1 - click any of the three configurations  
+![image](https://github.com/Valthrun/Wiki/assets/60718218/8e5af2be-9d01-4df5-a5b2-7ab1eba4ecda)
 
-detection problems 
------
+Step 2 - Next go to application launcher and click the 3 dots circled in the image  
+![image](https://github.com/Valthrun/Wiki/assets/60718218/99f63152-6820-4245-a7f4-f4343a834da2)
 
-Step 1 - click any of the three configurations ![image](https://github.com/Valthrun/Wiki/assets/60718218/8e5af2be-9d01-4df5-a5b2-7ab1eba4ecda)
-
-Step 2 - Next go to application launcher and click the 3 dots circled in the image ![image](https://github.com/Valthrun/Wiki/assets/60718218/99f63152-6820-4245-a7f4-f4343a834da2)
-
-step 3 - click add and add the controller.exe file as an option
+step 3 - click add and add the controller.exe file as an option  
 ![image](https://github.com/Valthrun/Wiki/assets/60718218/4a292d93-3566-418b-b9b7-6bea549c6a35)
 
 Step 4 - press launch 
 
-FPS issues
------
+### Fixing FPS issues
 step 1 - open vulkan configurator 
 
 step 2 - you will see an area that says vulkan layers configurations go to portability, synchronization, and validation and set each one to Reduced-overhead preset in the settings 
