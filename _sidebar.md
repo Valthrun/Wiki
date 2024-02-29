@@ -2,6 +2,7 @@
 - Getting Started
   - [Overview](010_getting-started/010_overview.md)
   - [Loading the driver](010_getting-started/020_driver.md)
+    - [Valthrun EFI loader](010_getting-started/010_mapping-method/050_efi-bootloader.md)
     - [Manual mapping via KD-Mapper](010_getting-started/010_mapping-method/010_kdmapper.md)
     - [Manual mapping via KDU](010_getting-started/010_mapping-method/020_kdu.md)
     - [Windows test-signing](010_getting-started/010_mapping-method/030_test-signing.md)

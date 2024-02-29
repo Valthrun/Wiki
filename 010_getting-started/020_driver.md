@@ -16,7 +16,8 @@ Here is a quick overview of various methods that can be used to load the Valthru
 
 | Method | Complexity | Success Rate |
 | --- | --- | --- |
-| [Manual Mapping via KD-Mapper](010_getting-started/010_mapping-method/010_kdmapper.md) | Medium | High |
+| [Valthrun EFI loader](010_getting-started/010_mapping-method/050_efi-bootloader.md) | Medium | High |
+| [Manual Mapping via KD-Mapper](010_getting-started/010_mapping-method/010_kdmapper.md) | Medium | Medium |
 | [Manual Mapping via KDU](010_getting-started/010_mapping-method/020_kdu.md)* | Medium | Medium |
 | [Using Windows Test-Signing](010_getting-started/010_mapping-method/030_test-signing.md) | Low | Very High |
 | [Manual Mapping via Other Mappers](010_getting-started/010_mapping-method/040_other-mappers.md)* | Unknown | Unknown |
