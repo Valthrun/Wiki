@@ -17,7 +17,7 @@ Please follow each step closely to avoid any issues.
 
 ## Step 1: Obtain the bootloader
 In this step, we'll download the latest Valthrun EFI loader from GitHub.
-1. Visit the [GitHub Release](github.com/Valthrun/Valthrun/releases/latest) page.
+1. Visit the [GitHub Release](https://github.com/Valthrun/Valthrun/releases/latest) page.
 2. Download the latest Valthrun EFI loader.
 3. Extract the ISO file from the downloaded ZIP file.
 
@@ -74,7 +74,7 @@ Press `ENTER` to select the file. You'll be prompted if you want to enroll the h
 
 1. Reboot system
 Once enrolled, you can select the `Reboot System` option from the main menu to reboot the system.  
-Attention: You may have to again select the Valthrun EFI loader within the boot menu (see [step 3](#3-boot-from-flash-drive))
+Attention: You may have to again select the Valthrun EFI loader within the boot menu (see [step 3](#step-3-boot-from-your-flash-drive))
 
 <details>
   <summary>Show image guide</summary>
@@ -95,4 +95,4 @@ From this step onwards you do not need the USB drive untill next system start.
 # Mapping Valthrun again after reboot
 With every system shutdown the Valthrun driver will be unloaded.  
 You'll have to boot via the Valthrun EFI loader to load the Valthrun driver on system start.  
-You can ether do this by selecting the Valthrun EFI loader manually every time (see [step 3](#3-boot-from-flash-drive)) or change the boot order of your system.
+You can ether do this by selecting the Valthrun EFI loader manually every time (see [step 3](#step-3-boot-from-your-flash-drive)) or change the boot order of your system.
