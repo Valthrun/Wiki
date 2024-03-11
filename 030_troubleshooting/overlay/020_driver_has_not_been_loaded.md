@@ -1,5 +1,16 @@
-# 确保已加载驱动程序
-通常是 `valthrun-driver.sys`
+# The kernel driver has not been loaded (`valthrun-driver.sys`)
+You're visiting this page as most likely the following message appeared when trying to start the Valthrun overlay:  
+![picture](../../_media/screenshot_overlay_controller_not_loaded.png)  
+  
+## Causes and solutions
+Most certenly this error is caused because the kernel driver (`valthrun-driver.sys`) has not been loaded or failed to load.  
+Common pifalls are:
+- Simply forgot to map the driver  
+  You may just forgot to map the driver. Information on how to load the driver can be found [here](../../010_getting-started/020_driver.md).  
+  Note:  
+  You have to map the driver again if you have restarted your pm.
 
-[ TODO: 如果驱动程序尚未加载，请截图显示信息 ]
-注意：可能会与 "以管理员身份运行 " 混淆
+- While mapping the driver an error occurred
+  Ensure that the process of mapping the driver was successfull.  
+  As example for mapping with the kdmapper, you should expect to see the following line after mapping the driver:  
+  `[+] DriverEntry returned 0x0`  

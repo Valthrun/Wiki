@@ -21,12 +21,11 @@ Wiki 中的所有内容都位于 docs 文件夹中、
 npm i docsify-cli -g
 ```
 
-2. 安装 Docsify 后，导航到 Valthrun 存储库，其中有 `docs` 文件夹。
-3. 运行以下命令，为本地 Wiki 提供服务：
+1. 运行以下命令，为本地 Wiki 提供服务：
 ```
-docsify serve docs
+docsify serve .
 ```
-4. Docsify 将为您提供一个 URL，您可以在网络浏览器中打开该 URL。  
+1. Docsify 将为您提供一个 URL，您可以在网络浏览器中打开该 URL。  
 您对内容文件所做的任何更改都会立即反映在实时预览页面上、 
 让您可以看到您的编辑将如何呈现给用户。
 

@@ -15,7 +15,7 @@ cargo r
 ```
 
 2. Start the standalone radar client (cs2 needs to be open)
- ```
+```
 cd radar\client-standalone
 cargo r -- -s 127.0.0.1:7228
 ```
@@ -42,16 +42,16 @@ cargo build --release radar-client-standalone
 The result will be located at `target/release/radar-client-standalone.exe`
 
 3. Build the web scripts
-```
-cd radar\web
-
-# Attention:
-# Set the SERVER_URL to the URL the web client should connect to.
-# You can use "ws://127.0.0.1:7229/subscribe" for a local http setup or
-# "wss://radar.valth.run/subscribe" for the official server
-$env:SERVER_URL="wss://example.com/subscribe"
-$env:NODE_ENV="development"
-
-yarn build
+```ps1
+  cd radar\web
+  
+  # Attention:
+  # Set the SERVER_URL to the URL the web client should connect to.
+  # You can use "ws://127.0.0.1:7229/subscribe" for a local http setup or
+  # "wss://radar.valth.run/subscribe" for the official server
+  $env:SERVER_URL="wss://example.com/subscribe"
+  $env:NODE_ENV="development"
+  
+  yarn build
 ```
 The result will be located at `dist` in `radar/web`

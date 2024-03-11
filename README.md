@@ -33,18 +33,22 @@ Valthrun 提供各种外部工具，让您的游戏体验更加精彩。
 *例如，如果不主动修改 CS2 游戏状态 (如写入内存) ，就不可能提供皮肤更换器。*
   
 尽管存在这种限制，Valthrun 还是支持以下功能:  
+- External radar  
+  Publish your game for everybody on https://radar.valth.run
 - 玩家 ESP
-  支持两种模式: `骨架` 和 `方框`
+  支持几种模式: `骨架`、`3D方框`和`2D方框`
   - 可配置颜色以区分敌我玩家
-  - ESP 包括玩家生命值
+  - ESP 包括玩家生命值、血量条、武器以及其他信息
 - 炸弹信息
   - 炸弹倒计时
   - 拆弹信息，如距离拆弹成功还有多久
   - 放置炸弹的地点
 - 自动扳机
+  Shoot your enemy (or team mates) as soon they enter your crosshair
 - 旁观者信息
   - 列出**正在观察你**或**与你一起旁观他人**的玩家
 - Stream proof by default
+  Never show your Valthrun overlay on any screen shares
 
 要打开 Valthruns 菜单，请按 `PAUSE` 键。
 

@@ -1,6 +1,6 @@
 # 如何使用 Valthrun
 要使用 Valthrun，你需要遵循几个步骤来设置所需的组件并运行 Valthrun overlay。
-以下是使用 Valthrun 的指南：
+以下步骤将逐一指导你如何使用 Valthrun。
 
 ## 使用一键脚本
 [下载脚本](https://nkxingxh.lanzoul.com/b08vilmab) (密码: 8zam)，直接运行即可。

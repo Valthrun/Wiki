@@ -2,6 +2,7 @@
 - 入门
   - [概述](/zh-cn/010_getting-started/010_overview.md)
   - [加载驱动程序](/zh-cn/010_getting-started/020_driver.md)
+    - [Valthrun EFI loader](/zh-cn/010_getting-started/010_mapping-method/050_efi-bootloader.md)
     - [通过 KD-Mapper 手动映射](/zh-cn/010_getting-started/010_mapping-method/010_kdmapper.md)
     - [通过 KDU 手动映射](/zh-cn/010_getting-started/010_mapping-method/020_kdu.md)
     - [Windows 测试签名](/zh-cn/010_getting-started/010_mapping-method/030_test-signing.md)
@@ -23,8 +24,10 @@
     - [错误日志](/zh-cn/030_troubleshooting/kernel/041_driver_debug_logs.md)
     - [映射错误](/zh-cn/030_troubleshooting/kernel/050_driver_mapper_errors.md)
   - Valthrun Overlay
-    - [驱动未加载](/zh-cn/030_troubleshooting/overlay/020_driver_has_not_been_loaded.md)
-    - [CS2 问题](/zh-cn/030_troubleshooting/overlay/030_cs2.md)
-    - [Vulkan 相关问题](/zh-cn/030_troubleshooting/overlay/040_amd_opengl.md)
-    - [寻找 `PAUSE` 键](/zh-cn/030_troubleshooting/overlay/050_pause_key.md)
-    - [全屏支持](/zh-cn/030_troubleshooting/overlay/060_full_screen.md)
+    - [Driver has not been loaded](030_troubleshooting/overlay/020_driver_has_not_been_loaded.md)
+    - [CS2 issues](030_troubleshooting/overlay/030_cs2.md)
+    - [Vulkan related issues](030_troubleshooting/overlay/040_amd_opengl.md)
+    - [Finding the `PAUSE` key](030_troubleshooting/overlay/050_pause_key.md)
+    - [Full screen support](030_troubleshooting/overlay/060_full_screen.md)
+- General knowledge
+  - [Valthrun and false positives](040_general/010_virus_false_positives.md)

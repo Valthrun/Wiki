@@ -31,10 +31,10 @@ Chrome 浏览器附带的 `vulkan-1.dll` 通常可以在以下文件夹中找到
 Download and install the `Runtime - Runtime Installer`.  
 ![Vulkan 运行时](_media/screenshot_vulkan_runtime.png)
 
-## 4. **将 AMD 驱动程序降级至 22.11.2**
-对于一些受影响的用户，将 AMD 驱动程序降级到 22.11.2 版已被证明是一个可行的解决方案。 
+## 4. **将 AMD 驱动程序降级至 23.7.1**
+对于一些受影响的用户，将 AMD 驱动程序降级到 23.7.1 版已被证明是一个可行的解决方案。 
 要执行降级，用户可从 AMD 官方网站或通过以下链接获取驱动程序：
-[AMD 驱动程序 22.11.2](https://www.amd.com/de/support/kb/release-notes/rn-rad-win-22-11-2)
+[AMD 驱动程序 23.7.1]([https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-7-1])
 
 Discord 讨论:  
 https://discord.com/channels/1135362291311849693/1135362291311849698/1154795646344241303
@@ -45,21 +45,19 @@ If opening up the Vulkan Configurator alone doesn't help users situation, follow
 
 I have now fixed vulkan detection and low fps issues using the Vulkan configurator, this is what worked for me it may not work for everyone its just my findings. 
 
+### Fixing vulkan detection issues
+Step 1 - click any of the three configurations  
+![image](https://github.com/Valthrun/Wiki/assets/60718218/8e5af2be-9d01-4df5-a5b2-7ab1eba4ecda)
 
-detection problems 
------
+Step 2 - Next go to application launcher and click the 3 dots circled in the image  
+![image](https://github.com/Valthrun/Wiki/assets/60718218/99f63152-6820-4245-a7f4-f4343a834da2)
 
-Step 1 - click any of the three configurations ![image](https://github.com/Valthrun/Wiki/assets/60718218/8e5af2be-9d01-4df5-a5b2-7ab1eba4ecda)
-
-Step 2 - Next go to application launcher and click the 3 dots circled in the image ![image](https://github.com/Valthrun/Wiki/assets/60718218/99f63152-6820-4245-a7f4-f4343a834da2)
-
-step 3 - click add and add the controller.exe file as an option
+step 3 - click add and add the controller.exe file as an option  
 ![image](https://github.com/Valthrun/Wiki/assets/60718218/4a292d93-3566-418b-b9b7-6bea549c6a35)
 
 Step 4 - press launch 
 
-FPS issues
------
+### Fixing FPS issues
 step 1 - open vulkan configurator 
 
 step 2 - you will see an area that says vulkan layers configurations go to portability, synchronization, and validation and set each one to Reduced-overhead preset in the settings 

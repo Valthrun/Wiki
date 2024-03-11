@@ -2,6 +2,13 @@
 ## 0. 前提条件
 Valthrun 需要 [Rust](https://www.rust-lang.org/learn/get-started) 工具链进行编译。
 
+Attention:  
+As Rust nightly features are used by Valthrun, you must first switch to Rust nightly.  
+Switching to the Rust nightly compiler can be done by the following command:  
+```ps1
+rustup default nightly
+```
+
 ## 1. 内核驱动程序
 目前，内核驱动程序是私有的。 
 请使用 github 发布的预编译内核驱动程序。
@@ -10,6 +17,9 @@ Valthrun 需要 [Rust](https://www.rust-lang.org/learn/get-started) 工具链进
   
 ## 2. 叠加层
 ```ps1
+# Initialize all submodules
+git submodule update --init
+
 # Create a release overlay build
 # The result will be located at "target/release/controller"
 cargo build --release

@@ -1,10 +1,41 @@
-# 将 `valthrun-driver.sys` 与 @Valthrunners'脚本进行映射
-1. 从 <https://github.com/WolverinDEV/Valthrun/releases/latest> 下载 **controller.exe** 和 **valthrun-driver.sys**
-2. 从 <https://github.com/valthrunner/Valthrun/releases/latest> 下载 **kdmapper.exe** 和 **run.bat** （*注意*：外部来源！）。
-3. 如果还没有，将所有文件（所有 .exe 文件和 .bat 文件）放在同一个文件夹中
-4.  启动 CS2
-5. 双击 run.bat（每个 .exe 文件都需要正确命名！！！）。  
-_例如，controller (1).exe 不会起作用，它们需要以上述方式命名！_
-6. 按下**PAUSE/BREAK**键，然后按您想要的方式设定 Valthrun（如果您未找到该按键，请查看： [寻找 PAUSE 键](/zh-cn/030_troubleshooting/overlay/050_pause_key.md))  
-_如果菜单不显示，也许你是在全屏模式下，改为全屏窗口模式_
-7. **享受** :tada: 与**在 GitHub 上为项目添加一颗星。<https://github.com/WolverinDEV/Valthrun/>**
+# All in one setup script by Valthrunner
+## Features
+- :rocket: **Automatic Updates:** Fetches the latest necessary files seamlessly.
+- :sparkles: **Driver Mapping:** Maps the driver effortlessly.
+- ⚡ **Convenience:** Simplifies running Valthrun and CS2.
+
+## Get Started :rocket:
+
+1. **Download the Script**: [Release](https://github.com/valthrunner/Valthrun/releases/latest/download/run.bat) (recommended) _or [Main branch](https://github.com/valthrunner/Valthrun/raw/main/run.bat)_.
+
+2. **Run the Script**: Double-click the script (run.bat).
+
+3. **Adjust Video Settings**: Ensure CS2 is in fullscreen windowed or windowed mode for the overlay to display correctly.
+
+4. **Configure Valthrun**: Press the PAUSE key and configure Valthrun to your liking (if you can't find the key, check out: [Finding the PAUSE key](030_troubleshooting/overlay/050_pause_key)).
+
+5. **Show Some Love**: Add a Star to these repos: [Script](https://github.com/valthrunner/Valthrun) & [Valthrun](https://github.com/Valthrun/Valthrun)! :star2:
+
+6. **Enjoy** :tada:! 
+
+## Shareable Radar 📡
+Quick Note: the radar Script runs both Valthrun and the standalone radar ^^
+
+1. **Download** [here](https://github.com/valthrunner/Valthrun/releases/latest/download/run_radar.bat)
+
+2. **Run the Script** - Simply double-click the script (run_radar.bat).
+
+3. **Open** https://radar.valth.run/ and enter the code you got
+
+4. **Send** the link to your friends!
+
+5. **Enjoy** :tada:! 
+
+## Script Support:
+For assistance or troubleshooting **regarding the Script**, visit `#support-run-script` on the official [Valthrun Discord](https://discord.gg/ecKbpAPW5T).
+
+---
+
+![image](../../../_media/showcase_valthrunners_script.png)
+
+---
