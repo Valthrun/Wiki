@@ -24,10 +24,10 @@
     - [错误日志](/zh-cn/030_troubleshooting/kernel/041_driver_debug_logs.md)
     - [映射错误](/zh-cn/030_troubleshooting/kernel/050_driver_mapper_errors.md)
   - Valthrun Overlay
-    - [Driver has not been loaded](030_troubleshooting/overlay/020_driver_has_not_been_loaded.md)
-    - [CS2 issues](030_troubleshooting/overlay/030_cs2.md)
-    - [Vulkan related issues](030_troubleshooting/overlay/040_amd_opengl.md)
-    - [Finding the `PAUSE` key](030_troubleshooting/overlay/050_pause_key.md)
-    - [Full screen support](030_troubleshooting/overlay/060_full_screen.md)
+    - [驱动未加载](/zh-cn/030_troubleshooting/overlay/020_driver_has_not_been_loaded.md)
+    - [CS2 问题](/zh-cn/030_troubleshooting/overlay/030_cs2.md)
+    - [Vulkan 相关问题](/zh-cn/030_troubleshooting/overlay/040_amd_opengl.md)
+    - [寻找 `PAUSE` 键](/zh-cn/030_troubleshooting/overlay/050_pause_key.md)
+    - [全屏支持](/zh-cn/030_troubleshooting/overlay/060_full_screen.md)
 - General knowledge
   - [Valthrun and false positives](040_general/010_virus_false_positives.md)
