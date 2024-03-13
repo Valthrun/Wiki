@@ -24,10 +24,10 @@ There are a few precautions you can take if you're unsure whatever Valthrun is l
 
 2. Compile Valthrun yourself  
    As the user mode application is open source, you can build Valthrun yourself and ensure that there is no malicious behaviour.
-   Building Valthrun yourself is rather easy and described [here](../020_contributing/build.md#2-overlay).  
+   Building Valthrun yourself is rather easy and described [here](../contributing/build#2-overlay).  
 
    Note:  
-   Even though the user mode application is open source, the kernel driver isn't as mentioned [here](../020_contributing/build.md#1-kernel-driver). You need to use the official prebuild kernel driver.
+   Even though the user mode application is open source, the kernel driver isn't as mentioned [here](../contributing/build#1-kernel-driver). You need to use the official prebuild kernel driver.
 
 3. Do not use Valthrun  
    If you're still unsure, whatever Valthrun is malicious or not, then there is a simple solution: avoidance.   

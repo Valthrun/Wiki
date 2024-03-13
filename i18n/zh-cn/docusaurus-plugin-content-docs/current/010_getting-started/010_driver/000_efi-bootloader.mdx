@@ -1,0 +1,113 @@
+import ImageScreenshotUefiLoaderMenu from "@site/docs/_media/screenshot_uefi_loader_menu.png";
+import ImageScreenshotUefiLoaderEnrol from "@site/docs/_media/screenshot_uefi_loader_enrol.png";
+import ImageScreenshotUefiLoaderEnrolYes from "@site/docs/_media/screenshot_uefi_loader_enrol_yes.png";
+import ImageScreenshotUefiRufus from "@site/docs/_media/screenshot_uefi_rufus.png";
+
+# 使用 Valthrun EFI 加载器映射
+
+Valthrun 驱动程序是一个既直接又有些复杂的过程。为了顺利完成操作，请仔细遵循以下每个步骤。
+
+### 注意事项
+
+**务必在进行后续操作前禁用基于内核级别的系统完整性检查软件（例如，内核防作弊软件）！**  
+如果未做此操作，这类软件可能会误判你的系统存在异常行为。
+
+公开提供的 Valthrun 驱动程序并未设计为隐蔽模式运行，因此可能会触发某些驱动程序供应商的安全机制，它们可能会阻止加载未经签名的驱动。
+
+通过 Valthrun EFI 加载器，Valthrun 驱动将在所有其他已安装驱动之前以最高优先级加载。
+
+### 初始设置
+
+创建包含 Valthrun EFI 加载器的 USB 闪存盘是一个简单但需细心的过程。
+
+#### 步骤 1：获取引导加载程序
+
+1. 访问[Valthrun GitHub 发布页面](https://github.com/Valthrun/Valthrun/releases/latest)。
+2. 下载最新的 Valthrun EFI 加载器。
+3. 解压缩下载的 ZIP 文件中的 ISO 镜像。
+
+#### 步骤 2：创建可启动 U 盘
+
+下载了 Valthrun EFI 加载器后，接下来我们需要制作一个可启动的 USB 闪存盘。
+这里会使用 Rufus 工具将之前获取的 ISO 镜像刻录到 USB 驱动器上。
+
+1. 下载 Rufus  
+   从[Rufus 官方网站](https://rufus.ie/en/)下载 Rufus 工具。
+2. 准备闪存盘  
+   确保使用的闪存盘当前没有重要数据，因为**其上的所有数据都将被清除**。将闪存盘插入计算机。
+
+3. 打开 Rufus  
+   运行之前下载的 Rufus 应用程序。
+
+4. 配置 Rufus  
+   调整以下相关设置：
+   - 设备选择：你的 USB 闪存盘  
+     在设备列表中选择你的闪存盘。
+   - 引导选择：Valthrun EFI 加载器路径  
+     点击“SELECT”按钮，选择提取出来的 ISO 镜像。
+   - 分区方案：`GPT`
+   - 文件系统：`FAT32`
+
+配置正确的话，Rufus 界面应该如图所示。
+
+<img src={ImageScreenshotUefiRufus} alt="screenshot_uefi_rufus" width="300" />
+
+5. 在 Rufus 中创建 Valthrun EFI 加载器的 USB 启动盘
+   只需点击 Rufus 界面上的“START”按钮开始创建可启动的闪存驱动器。请耐心等待整个过程结束，直到 Rufus 完成写入 ISO 文件和格式化工作，从而生成一个能够用于启动并加载 Valthrun EFI 加载器的 USB 闪存盘。在此期间，请勿拔出 USB 闪存盘，以免造成数据损坏或创建失败。待进度条完成以及 Rufus 提示操作成功后，即可安全移除并使用该 USB 启动盘进行后续的操作。
+
+#### 步骤 3：从闪存盘启动
+
+创建完带有 Valthrun EFI 加载器的可启动 U 盘后，需要从它启动电脑。每次开机时想加载 Valthrun 都需要如此操作。
+
+1. 重启电脑  
+   当可启动 U 盘准备就绪后，重启计算机。
+
+2. 进入启动菜单  
+   启动过程中，按相应主板按键进入启动菜单（通常是 F12、F10 或 Esc 键）。
+
+3. 选择闪存盘  
+   在启动菜单中选择 U 盘作为启动设备。选择闪存盘后，你将通过 Valthrun EFI 加载器启动。
+
+#### 步骤 4：注册哈希值（仅当启用了安全启动时）
+
+完成上述步骤并成功从新刻录的 Valthrun EFI 加载器 U 盘启动后，如果你开启了安全启动，你需要执行以下操作。如果没有启用安全启动，则跳过这一步！  
+![image](@site/docs/_media/screenshot_uefi_loader_failed.png)
+
+1. 注册加载器哈希  
+   在主菜单中首先选择`Enroll Hash`并按下`ENTER`键。然后选择要注册的二进制文件哈希，使用方向键选择`loader.efi`，按`ENTER`确认选择文件，当提示是否将其哈希添加至 MOK 数据库时，选择`yes`并按`ENTER`确认。
+
+1. 重新启动系统  
+   注册完成后，可以从主菜单选择`Reboot System`选项重启系统。注意：可能需要再次在启动菜单中选择 Valthrun EFI 加载器（参见[步骤 3](#step-3-boot-from-your-flash-drive)）
+
+<details>
+  <summary>Show image guide</summary>
+  <img
+    style={{ display: "block" }}
+    src={ImageScreenshotUefiLoaderMenu}
+    alt="screenshot_uefi_loader_menu"
+  />
+  <img
+    style={{ display: "block" }}
+    src={ImageScreenshotUefiLoaderEnrol}
+    alt="screenshot_uefi_loader_enrol"
+  />
+  <img
+    style={{ display: "block" }}
+    src={ImageScreenshotUefiLoaderEnrolYes}
+    alt="screenshot_uefi_loader_enrol_yes"
+  />
+</details>
+
+#### 步骤 5：验证 Valthrun 已成功加载
+
+如果通过 efi 成功加载了 Valthrun，你会看到特定的屏幕。按`F10`键正常启动 Windows，一旦 Windows 启动，Valthrun 内核驱动将随之加载。  
+![image](@site/docs/_media/screenshot_uefi_mapped_successfully.png)
+
+**专业提示**：  
+在按下`F10`键之前，你可以移除 USB 闪存盘以增强隐秘性。自此步骤之后，在下次系统启动前，不再需要该 USB 驱动器。
+
+#### 重启后再次映射 Valthrun
+
+每次系统关闭时，Valthrun 驱动程序都会被卸载。你需要通过 Valthrun EFI 加载器启动以在系统启动时加载 Valthrun 驱动。
+
+你可以选择每次手动在启动菜单中选择 Valthrun EFI 加载器（参照[步骤 3](#step-3-boot-from-your-flash-drive)），或者更改系统的启动顺序。

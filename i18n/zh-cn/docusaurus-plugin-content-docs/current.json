@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Getting started": {
-    "message": "Getting started",
+    "message": "入门",
     "description": "The label for category Getting started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Setup the driver": {
@@ -12,7 +12,7 @@
     "description": "The label for category Setup the driver in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Contribute": {
-    "message": "Contribute",
+    "message": "贡献",
     "description": "The label for category Contribute in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Contribute.link.generated-index.title": {
@@ -24,7 +24,7 @@
     "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Troubleshooting": {
-    "message": "Troubleshooting",
+    "message": "疑难解答",
     "description": "The label for category Troubleshooting in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Troubleshooting.link.generated-index.title": {
