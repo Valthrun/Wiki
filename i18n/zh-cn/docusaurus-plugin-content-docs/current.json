@@ -1,0 +1,74 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting started": {
+    "message": "Getting started",
+    "description": "The label for category Getting started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup the driver": {
+    "message": "Setup the driver",
+    "description": "The label for category Setup the driver in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contribute": {
+    "message": "Contribute",
+    "description": "The label for category Contribute in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.title": {
+    "message": "Start contribute to Valthrun",
+    "description": "The generated-index page title for category Contribute in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contribute.link.generated-index.description": {
+    "message": "Setup a development environment and start contributing!",
+    "description": "The generated-index page description for category Contribute in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category Troubleshooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshooting.link.generated-index.title": {
+    "message": "Troubleshooting issues",
+    "description": "The generated-index page title for category Troubleshooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshooting.link.generated-index.description": {
+    "message": "If you're having trouble getting started, you might find help here",
+    "description": "The generated-index page description for category Troubleshooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Kernel Driver": {
+    "message": "Kernel Driver",
+    "description": "The label for category Kernel Driver in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Kernel Driver.link.generated-index.title": {
+    "message": "Troubleshooting driver related issues",
+    "description": "The generated-index page title for category Kernel Driver in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Kernel Driver.link.generated-index.description": {
+    "message": "If you're having trouble getting the valthrun driver to load, you might find help here",
+    "description": "The generated-index page description for category Kernel Driver in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Valthrun Overlay": {
+    "message": "Valthrun Overlay",
+    "description": "The label for category Valthrun Overlay in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Valthrun Overlay.link.generated-index.title": {
+    "message": "Troubleshooting overlay related issues",
+    "description": "The generated-index page title for category Valthrun Overlay in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Valthrun Overlay.link.generated-index.description": {
+    "message": "If you're having trouble getting the Valthrun overlay to run, you might find help here",
+    "description": "The generated-index page description for category Valthrun Overlay in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.General Information": {
+    "message": "General Information",
+    "description": "The label for category General Information in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.General Information.link.generated-index.title": {
+    "message": "General Information",
+    "description": "The generated-index page title for category General Information in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.General Information.link.generated-index.description": {
+    "message": "Haven't yet found what you were looking for? Maybe you'll find it here.",
+    "description": "The generated-index page description for category General Information in sidebar tutorialSidebar"
+  }
+}
