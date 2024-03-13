@@ -30,16 +30,8 @@ For assistance or troubleshooting regarding this script, visit `#support-run-scr
 ## Shareable Radar 📡
 Quick Note: the radar Script runs both Valthrun and the standalone radar ^^
 
-1. **Download** [here](https://github.com/valthrunner/Valthrun/releases/latest/download/run_radar.bat)
-
-2. **Run the Script** - Simply double-click the script (run_radar.bat).
-
-3. **Open** https://radar.valth.run/ and enter the code you got
-
-4. **Send** the link to your friends!
-
-5. **Enjoy** :tada:! 
+**Enjoy the built in Valthrun sharable web radar by running [run.bat](https://github.com/valthrunner/Valthrun/releases/latest/download/run.bat)!** 🎉! 
 
 ## Script Support:
-For assistance or troubleshooting **regarding the Script**, visit `#support-run-script` on the official [Valthrun Discord](https://discord.gg/ecKbpAPW5T).
+For anything **regarding the Script**, visit `#support-run-script` on the official [Valthrun Discord](https://discord.gg/ecKbpAPW5T).
 ![image](../_media/showcase_valthrunners_script.png)
