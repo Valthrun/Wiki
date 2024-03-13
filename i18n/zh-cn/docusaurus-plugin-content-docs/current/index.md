@@ -1,6 +1,7 @@
 ---
+title: Home
+hide_title: true
 sidebar_position: 1
-title: 主页
 ---
 
 ![Valthrun CS2 Logo](/img/logo.svg)
@@ -25,7 +26,7 @@ Valthrun 是一个开源的 CS2 外部只读内核游戏增强器。
 
 <h2>警告</h2>
 Valthrun 目前**不是** pnp (即插即用) 应用程序。 
-请仔细阅读 [如何使用](/docs/getting-started)，并尝试自行排除故障。 
+请仔细阅读 [如何使用](./getting-started)，并尝试自行排除故障。 
 目的是最大限度地避免反作弊检测。
 
 🔴 如果你担心**使用本工具后触发反作弊机制从而导致账号受到处罚**，我们建议你**不要使用**本工具。 🔴

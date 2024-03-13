@@ -1,6 +1,7 @@
 ---
+title: Home
+hide_title: true
 sidebar_position: 1
-title: Introduction
 ---
 
 ![Valthrun CS2 Logo](@site/static/img/logo.svg)

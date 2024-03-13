@@ -28,7 +28,9 @@ const config: Config = {
         [
             'classic',
             {
+                blog: false,
                 docs: {
+                    routeBasePath: "/",
                     sidebarPath: './sidebars.ts',
                     editUrl: ({ versionDocsDirPath, docPath }) =>
                         `https://github.com/Valthrun/Wiki/edit/master/${versionDocsDirPath}/${docPath}`,
@@ -51,12 +53,12 @@ const config: Config = {
                 src: 'img/logo-icon.svg',
             },
             items: [
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
-                    position: 'left',
-                    label: 'Documentation',
-                },
+                // {
+                //     type: 'docSidebar',
+                //     sidebarId: 'tutorialSidebar',
+                //     position: 'left',
+                //     label: 'Documentation',
+                // },
                 {
                     href: 'https://github.com/Valthrun/Wiki',
                     label: 'GitHub',
@@ -71,15 +73,6 @@ const config: Config = {
         footer: {
             style: 'dark',
             links: [
-                {
-                    title: 'Docs',
-                    items: [
-                        {
-                            label: 'Tutorial',
-                            to: '/docs/intro',
-                        },
-                    ],
-                },
                 {
                     title: 'Community',
                     items: [
