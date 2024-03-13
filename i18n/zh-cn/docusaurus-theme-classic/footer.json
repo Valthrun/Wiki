@@ -26,5 +26,9 @@
   "copyright": {
     "message": "Copyright © 2024 Valthrun. Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Latest Release": {
+    "message": "Latest Release",
+    "description": "The label of footer link with label=Latest Release linking to https://github.com/Valthrun/Valthrun/releases/latest"
   }
 }

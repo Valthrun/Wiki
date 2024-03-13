@@ -7,10 +7,6 @@
     "message": "入门",
     "description": "The label for category Getting started in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Setup the driver": {
-    "message": "Setup the driver",
-    "description": "The label for category Setup the driver in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Contribute": {
     "message": "贡献",
     "description": "The label for category Contribute in sidebar tutorialSidebar"
@@ -70,5 +66,9 @@
   "sidebar.tutorialSidebar.category.General Information.link.generated-index.description": {
     "message": "Haven't yet found what you were looking for? Maybe you'll find it here.",
     "description": "The generated-index page description for category General Information in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.加载 Valthrun 驱动程序": {
+    "message": "加载 Valthrun 驱动程序",
+    "description": "The label for category 加载 Valthrun 驱动程序 in sidebar tutorialSidebar"
   }
 }
