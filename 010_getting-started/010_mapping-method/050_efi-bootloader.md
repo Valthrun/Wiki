@@ -1,80 +1,68 @@
-# Using the Valthrun EFI loader
-Mapping the Valthrun driver by using the Valthrun EFI loader is the most secure and esiest way to map the Valthrun driver.  
-To map the Valthrun driver with the Valthrun EFI loader, follow these steps:
+使用Valthrun EFI加载器映射Valthrun驱动程序是一个既直接又有些复杂的过程。为了顺利完成操作，请仔细遵循以下每个步骤。
 
-## ATTENTION  {docsify-ignore}
-**Ensure software which scans for system integrity on a kernel based level (e.g. kernel anticheats) are disabled before proceeding!**  
-  
-Failing to do so may result in such software "flagging" your system.  
-The publically available Valthrun driver is not designed to be stealhy!  
-Some such driver vendors might block unsigned drivers for security reasons.
-By using this EFI loader the Valthrun driver will be loaded with highest priority before any other installed driver.
-  
+### 注意事项
+**务必在进行后续操作前禁用基于内核级别的系统完整性检查软件（例如，内核防作弊软件）！**  
+如果未做此操作，这类软件可能会误判你的系统存在异常行为。
 
-# Initial setup
-Creating a USB stick containing the Valthrun EFI loader is a quite straight forward but yet complex process.   
-Please follow each step closely to avoid any issues.  
+公开提供的Valthrun驱动程序并未设计为隐蔽模式运行，因此可能会触发某些驱动程序供应商的安全机制，它们可能会阻止加载未经签名的驱动。
 
-## Step 1: Obtain the bootloader
-In this step, we'll download the latest Valthrun EFI loader from GitHub.
-1. Visit the [GitHub Release](https://github.com/Valthrun/Valthrun/releases/latest) page.
-2. Download the latest Valthrun EFI loader.
-3. Extract the ISO file from the downloaded ZIP file.
+通过Valthrun EFI加载器，Valthrun驱动将在所有其他已安装驱动之前以最高优先级加载。
 
-## Step 2: Creating bootable flash drive
-After downloading the Valthrun EFI loader from GitHub we will need to create a bootable USB flash drive.
-We'll use the Rufus utility to burn the previously obtained ISO to a USB drive.
-1. Download Rufus  
-   Download Rufus from [the official Rufus website](https://rufus.ie/en/).
+### 初始设置
+创建包含Valthrun EFI加载器的USB闪存盘是一个简单但需细心的过程。
+
+#### 步骤1：获取引导加载程序
+1. 访问[Valthrun GitHub 发布页面](https://github.com/Valthrun/Valthrun/releases/latest)。
+2. 下载最新的Valthrun EFI加载器。
+3. 解压缩下载的ZIP文件中的ISO镜像。
+
+#### 步骤2：创建可启动U盘
+下载了Valthrun EFI加载器后，接下来我们需要制作一个可启动的USB闪存盘。
+这里会使用Rufus工具将之前获取的ISO镜像刻录到USB驱动器上。
+1. 下载Rufus  
+   从[Rufus官方网站](https://rufus.ie/en/)下载Rufus工具。
    
-2. Prepare a flash drive  
-   Ensure you have a flash drive that is not currently in use, as ***all data on it will be wiped***.  
-   Insert the flash drive into your computer.
+2. 准备闪存盘  
+   确保使用的闪存盘当前没有重要数据，因为**其上的所有数据都将被清除**。将闪存盘插入计算机。
 
-3. Launch Rufus  
-   Open the previously downloaded Rufus application.
+3. 打开Rufus  
+   运行之前下载的Rufus应用程序。
 
-4. Configure Rufus  
-We need to adjust some of the following settings:
-   - Device Selection: Your USB stick  
-     Select your flash drive from the list of devices.
-   - Boot Selection: Valthrun EFI loader path  
-     Click on the "SELECT" button to choose the extracted ISO image.
-   - Partition Scheme: `GPT`
-   - File System: `FAT32`  
-  
-If done everything correctly, Rufus should look like this:  
+4. 配置Rufus  
+   调整以下相关设置：
+   - 设备选择：你的USB闪存盘  
+     在设备列表中选择你的闪存盘。
+   - 引导选择：Valthrun EFI加载器路径  
+     点击“SELECT”按钮，选择提取出来的ISO镜像。
+   - 分区方案：`GPT`
+   - 文件系统：`FAT32`
+
+配置正确的话，Rufus界面应该如图所示。  
 <img src="../../_media/screenshot_uefi_rufus.png" alt="screenshot_uefi_rufus" width="300"/>
 
-1. Create your Valthrun EFI loader USB stick  
-   Click on the "START" button in Rufus to create your bootable flash drive.  
-   Please wait until the process is completed.
+5. 在Rufus中创建Valthrun EFI加载器的USB启动盘
+只需点击Rufus界面上的“START”按钮开始创建可启动的闪存驱动器。请耐心等待整个过程结束，直到Rufus完成写入ISO文件和格式化工作，从而生成一个能够用于启动并加载Valthrun EFI加载器的USB闪存盘。在此期间，请勿拔出USB闪存盘，以免造成数据损坏或创建失败。待进度条完成以及Rufus提示操作成功后，即可安全移除并使用该USB启动盘进行后续的操作。
 
-## Step 3: Boot from your flash drive
-After creating our bootable flash driver with the Valthrun EFI loader we need to boot from it. You'll need to do this every time you want to load Valthrun when starting your PC.
-1. Restart your PC  
-   Once the bootable flash drive is ready, restart your computer.
+#### 步骤3：从闪存盘启动
+创建完带有Valthrun EFI加载器的可启动U盘后，需要从它启动电脑。每次开机时想加载Valthrun都需要如此操作。
+1. 重启电脑  
+   当可启动U盘准备就绪后，重启计算机。
 
-2. Enter the boot menu  
-   During the boot process, access the boot menu by pressing the appropriate key for your motherboard (commonly F12, F10, or Esc).
+2. 进入启动菜单  
+   启动过程中，按相应主板按键进入启动菜单（通常是F12、F10或Esc键）。
 
-3. Select the Flash Drive  
-   In the boot menu, select your flash drive as the boot device.  
-   After selecting the flash drive, you'll boot using the Valthrun EFI loader.
+3. 选择闪存盘  
+   在启动菜单中选择U盘作为启动设备。选择闪存盘后，你将通过Valthrun EFI加载器启动。
 
-## Step 4: Enroll hash (only when secure boot is activated)
-Once you've completed the steps above and you successfully booted from your freshly burned Valthrun EFI loader USB stick you should see the following.  
-Note: If you do not have secure boot enabled, you have to skip this step!  
-![image](../../_media/screenshot_uefi_loader_failed.png)  
+#### 步骤4：注册哈希值（仅当启用了安全启动时）
+完成上述步骤并成功从新刻录的Valthrun EFI加载器U盘启动后，如果你开启了安全启动，你需要执行以下操作。如果没有启用安全启动，则跳过这一步！  
+![image](../../_media/screenshot_uefi_loader_failed.png)
 
-1. Enroll the loader hash  
-To enroll the hash of the loader fistly select in the main menu `Enroll Hash` and press `ENTER`. 
-You'll then be prompted which binaries hash you want to enroll. Use your arrow keys to select `loader.efi`. 
-Press `ENTER` to select the file. You'll be prompted if you want to enroll the hash into the MOK database. Confirm this by selecting `yes` and press `ENTER`.
+1. 注册加载器哈希  
+   在主菜单中首先选择`Enroll Hash`并按下`ENTER`键。然后选择要注册的二进制文件哈希，使用方向键选择`loader.efi`，按`ENTER`确认选择文件，当提示是否将其哈希添加至MOK数据库时，选择`yes`并按`ENTER`确认。
 
-1. Reboot system
-Once enrolled, you can select the `Reboot System` option from the main menu to reboot the system.  
-Attention: You may have to again select the Valthrun EFI loader within the boot menu (see [step 3](#step-3-boot-from-your-flash-drive))
+1. 重新启动系统  
+   注册完成后，可以从主菜单选择`Reboot System`选项重启系统。注意：可能需要再次在启动菜单中选择Valthrun EFI加载器（参见[步骤3](#step-3-boot-from-your-flash-drive)）
 
 <details>
   <summary>Show image guide</summary>
@@ -83,16 +71,14 @@ Attention: You may have to again select the Valthrun EFI loader within the boot 
    <img style="display: block" src="../../_media/screenshot_uefi_loader_enrol_yes.png" alt="screenshot_uefi_loader_enrol_yes" />
 </details>
 
-## Step 5: Verify Valthrun has been loaded
-If you managed to successfully load Valthrun via the efi, you should see the following screen.  
-Press `F10` to normally boot Windows. The Valthrun kernel driver will be loaded as soon as Windows boots up.
+#### 步骤5：验证Valthrun已成功加载
+如果通过efi成功加载了Valthrun，你会看到特定的屏幕。按`F10`键正常启动Windows，一旦Windows启动，Valthrun内核驱动将随之加载。  
 ![image](../../_media/screenshot_uefi_mapped_successfully.png)  
-  
-**Pro Tip**:  
-You may remove the USB stick before pressing `F10` to improve stealhness.  
-From this step onwards you do not need the USB drive untill next system start.
 
-# Mapping Valthrun again after reboot
-With every system shutdown the Valthrun driver will be unloaded.  
-You'll have to boot via the Valthrun EFI loader to load the Valthrun driver on system start.  
-You can ether do this by selecting the Valthrun EFI loader manually every time (see [step 3](#step-3-boot-from-your-flash-drive)) or change the boot order of your system.
+**专业提示**：  
+在按下`F10`键之前，你可以移除USB闪存盘以增强隐秘性。自此步骤之后，在下次系统启动前，不再需要该USB驱动器。
+
+#### 重启后再次映射Valthrun
+每次系统关闭时，Valthrun驱动程序都会被卸载。你需要通过Valthrun EFI加载器启动以在系统启动时加载Valthrun驱动。
+
+你可以选择每次手动在启动菜单中选择Valthrun EFI加载器（参照[步骤3](#step-3-boot-from-your-flash-drive)），或者更改系统的启动顺序。
