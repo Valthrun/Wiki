@@ -34,7 +34,7 @@ Download and install the `Runtime - Runtime Installer`.
 ## 4. **将 AMD 驱动程序降级至 23.7.1**
 对于一些受影响的用户，将 AMD 驱动程序降级到 23.7.1 版已被证明是一个可行的解决方案。 
 要执行降级，用户可从 AMD 官方网站或通过以下链接获取驱动程序：
-[AMD 驱动程序 23.7.1]([https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-7-1])
+[AMD 驱动程序 23.7.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-7-1)
 
 Discord 讨论:  
 https://discord.com/channels/1135362291311849693/1135362291311849698/1154795646344241303
