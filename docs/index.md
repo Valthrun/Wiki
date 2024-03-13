@@ -1,6 +1,7 @@
 ---
 title: Home
 hide_title: true
+description: The Valthrun wiki is your comprehensive source for information about Valthrun an an open source external Counter-Strike 2 read only kernel-level gameplay enhancer
 sidebar_position: 1
 ---
 
