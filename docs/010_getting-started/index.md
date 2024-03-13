@@ -7,7 +7,7 @@ To use Valthrun, you will need to follow several steps to set up the required co
 The following steps will guide you one by one on how to use Valthrun.  
   
 :::tip
-Lazy doeing all these steps manually?  
+Lazy doing all these steps manually?  
 Automate everything effortlessly with Valthrunner's script by [@valthrunner](https://github.com/valthrunner).  
 Update Valthrun, map the driver, auto-start CS2, and run Valthrun with just a click!  
 More information can be found here: [Valthrunner's Script](./community_script_valthrunner)
