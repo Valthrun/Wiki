@@ -1,6 +1,6 @@
 # Contributing to the Wiki
 Contributing to the Wiki is a straightforward process that allows individuals to expand and enhance the knowledge base collaboratively. 
-The Wiki is built using [Docosaurus](https://docusaurus.io) and is stored in the Valthrun wiki repository.
+The Wiki is built using [Docosaurus](https://docusaurus.io) and is stored in the [Valthrun wiki repository](https://github.com/Valthrun/wiki).
 All the content within the Wiki can be located inside the `docs` folder,
 and the content files are typically written in Markdown for ease of editing.
 
