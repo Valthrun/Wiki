@@ -1,21 +1,20 @@
+---
+title: CS2 ingame overlay
+---
+
 # Building the Valthrun CS2 Overlay
-## 0. Prerequiresits
+## Prerequiresits
 Valthrun requires the [Rust](https://www.rust-lang.org/learn/get-started) toolchain to be compiled.  
   
-Attention:  
+:::warning
 As Rust nightly features are used by Valthrun, you must first switch to Rust nightly.  
 Switching to the Rust nightly compiler can be done by the following command:  
 ```ps1
 rustup default nightly
 ```
+:::
 
-## 1. Kernel Driver
-As the Currently the kernel driver is private.  
-Use the prebuild kernel driver available within the github releases.
-  
-The base for the kernel driver started open source and is still available within the commit history. As I've added more and more in depth features as manual mapping support and basic stelth features I decided to make its code base private. One of many reasons is that I may use this driver for other game- / reverse engineering- based projects.  
-  
-## 2. Overlay
+## Building the overlay
 ```ps1
 # Initialize all submodules
 git submodule update --init

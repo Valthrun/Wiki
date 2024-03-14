@@ -11,10 +11,11 @@ Most certenly this error is caused because the kernel driver (`valthrun-driver.s
 Common pifalls are:
 - Simply forgot to map the driver  
   You may just forgot to map the driver. Information on how to load the driver can be found [here](../../getting-started/driver).  
-  Note:  
-  You have to map the driver again if you have restarted your pm.
+  :::note
+  You have to map the driver again after you restarted your PC.
+  :::
 
-- While mapping the driver an error occurred
+- While mapping the driver an error occurred  
   Ensure that the process of mapping the driver was successfull.  
   As example for mapping with the kdmapper, you should expect to see the following line after mapping the driver:  
   `[+] DriverEntry returned 0x0`  

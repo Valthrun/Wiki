@@ -1,8 +1,8 @@
 ---
-title: Static/dynamic offsets
+title: CS2 Offsets
 ---
 
-# Offsets
+# Updating offsets
 ## What are offsets
 In computer science, an offset within an array or other data structure object is an integer indicating the distance (displacement) between the beginning of the object and a given element or point, presumably within the same object [^4].
 Valthrun heavily uses offsets to retrieve data from different CS2 structures to enhance your gameplay experience.

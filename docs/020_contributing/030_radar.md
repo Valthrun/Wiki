@@ -1,6 +1,18 @@
+---
+title: Web Radar
+---
+
 # Developing / Building the Radar
 ## Prerequiresits
-Valthrun requires the [Rust](https://www.rust-lang.org/learn/get-started) toolchain to be compiled.
+Valthrun requires the [Rust](https://www.rust-lang.org/learn/get-started) toolchain to be compiled.  
+
+:::warning
+As Rust nightly features are used by Valthrun, you must first switch to Rust nightly.  
+Switching to the Rust nightly compiler can be done by the following command:  
+```ps1
+rustup default nightly
+```
+:::
 
 ## Setup development environment
 :::note 
