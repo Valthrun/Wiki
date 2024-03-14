@@ -11,7 +11,7 @@ const config: Config = {
     baseUrl: '/',
 
     organizationName: 'valthrun',
-    projectName: 'valthrun-wiki',
+    projectName: 'wiki',
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -59,14 +59,14 @@ const config: Config = {
                 //     position: 'left',
                 //     label: 'Documentation',
                 // },
-                {
-                    href: 'https://github.com/Valthrun/Wiki',
-                    label: 'GitHub',
-                    position: 'right',
-                },
+                // {
+                //     href: 'https://github.com/Valthrun/Wiki',
+                //     label: 'GitHub',
+                //     position: 'right',
+                // },
                 {
                     type: 'localeDropdown',
-                    position: 'right',
+                    position: 'left',
                 }
             ],
         },
@@ -105,6 +105,14 @@ const config: Config = {
         colorMode: {
             defaultMode: "dark",
             respectPrefersColorScheme: true
+        },
+        algolia: {
+            appId: "GGGH1VYHMZ",
+            apiKey: "34b16ea7bb7f146b2470db0fa560b1a3",
+            indexName: "valth",
+
+            contextualSearch: true,
+            searchPagePath: "search",
         }
     } satisfies Preset.ThemeConfig,
 };
