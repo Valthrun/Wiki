@@ -8,7 +8,10 @@ As manually mapping the kernel driver is something that is prohibited by many ap
   - CS:GO / CS2 with Facit or ESEA
   - EAC (Apex, Fortnite, Rust)
   - Vanguard (Valorant)
-- Anti virus applications
-Note: Please do *not* permanently disable your AV.  
-Only do it for the time of mapping the driver!
+- Anti virus applications  
 - Windows Defender
+
+:::warning
+Please do *not* permanently disable your AV.  
+Only do it for the time of mapping the driver!
+:::

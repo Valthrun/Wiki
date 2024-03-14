@@ -15,7 +15,7 @@ The latest Windows 10 and Windows 11 versions, such as 22H2, have been tested su
 User feedback also suggests that Windows versions as far back as 20H2 are working.  
 If you encounter any issues, please submit an issue report that includes your Windows version and a description of the error you encounter.
 
-## Overview of Mapping Methods
+## Overview of Mapping Methods {#methods}
 Here is a quick overview of various methods that can be used to load the Valthrun driver:
 
 | Method | Complexity | Success Rate |

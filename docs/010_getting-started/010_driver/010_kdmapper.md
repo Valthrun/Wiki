@@ -68,6 +68,9 @@ If this line is present, it indicates a successful loading of the Valthrun drive
 However, if this line is **not found in the output**, it suggests that the **mapping process failed**.   
 In such cases, please refer to the troubleshooting section for guidance on resolving the issue.
 
+## Troubleshooting
+Informations on how to troubleshoot common KDMapper errors can be found [here](../../troubleshooting/kernel/driver_mapper_errors)
+
 ## Advantages / Disadvantages
 <h2>Advantages</h2>
 Using KDMapper is a quite straigt forward process.  

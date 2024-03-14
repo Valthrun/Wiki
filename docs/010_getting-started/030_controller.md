@@ -1,5 +1,5 @@
 ---
-title: Start the overlay
+title: Ingame Overlay
 ---
 
 # Start the overlay
