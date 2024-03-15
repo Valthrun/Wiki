@@ -21,16 +21,15 @@ For assistance or troubleshooting regarding this script, visit `#support-run-scr
 
 3. **Adjust Video Settings**: Ensure CS2 is in fullscreen windowed or windowed mode for the overlay to display correctly.
 
-4. **Configure Valthrun**: Press the PAUSE key and configure Valthrun to your liking (if you can't find the key, check out: [Finding the PAUSE key](../troubleshooting/overlay/pause_key)).
+4. **Configure Valthrun**: Press the PAUSE key and configure Valthrun (if you can't find it, check out: [Open the GUI without a PAUSE key](../troubleshooting/overlay/pause_key)).
 
 5. **Show Some Love**: Add a Star to these repos: [Script](https://github.com/valthrunner/Valthrun) & [Valthrun](https://github.com/Valthrun/Valthrun)! :star2:
 
 6. **Enjoy** :tada:! 
 
 ## Shareable Radar 📡
-Quick Note: the radar Script runs both Valthrun and the standalone radar ^^
 
-**Enjoy the built in Valthrun sharable web radar by running [run.bat](https://github.com/valthrunner/Valthrun/releases/latest/download/run.bat)!** 🎉! 
+**Enjoy the built in Valthrun sharable web radar by running [run.bat 🎉](https://github.com/valthrunner/Valthrun/releases/latest/download/run.bat)!**  
 
 ## Script Support:
 For anything **regarding the Script**, visit `#support-run-script` on the official [Valthrun Discord](https://discord.gg/ecKbpAPW5T).
