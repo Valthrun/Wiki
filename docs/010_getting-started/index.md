@@ -16,7 +16,7 @@ More information can be found here: [Valthrunner's Script](./community_script_va
 ## Required Files
 Before you can use Valthrun, you must acquire two essential components:
 
-1. **Kernel Driver (`vulthrun-driver.sys`)**  
+1. **Kernel Driver (`valthrun-driver.sys`)**  
 The kernel driver is the crucial part of Valthrun. 
 It supports undetected arbitrary read operations on the Counter-Strike 2 process and prevents other software like VAC from detecting these operations. 
 You can obtain the latest release of the kernel driver from the GitHub release page.  
@@ -30,7 +30,7 @@ You can download the latest releases of both the kernel driver and the CS2 overl
 ## Loading and starting Valthrun
 Once you have acquired the necessary files mentioned above, follow these steps to run the Valthrun overlay:
 
-1. **Load the Kernel Driver (`vulthrun-driver.sys`)**  
+1. **Load the Kernel Driver (`valthrun-driver.sys`)**  
 The kernel driver is the centerpiece of Valthrun. 
 It enables undetected arbitrary read operations on the Counter-Strike 2 process and prevents detection by other software, such as VAC.
 There are multiple ways to load the kernel driver. 
