@@ -9,6 +9,6 @@ When using full screen mode, CS2 does not have a window, instead it directly use
 thus excluding any other windows from overlaying it.
 
 ## Can I still play with my 4:3 resolution?
-Personally I never tested this solution, but there is a script available to make Valthrun and CS2 work with
-a 4:3 monitor resolution. The script can be found here:  
-https://discord.com/channels/1135362291311849693/1157745655108874241/1157751376856764453
+There is a script available to make Valthrun and CS2 work with
+a 4:3 monitor resolution. The script can be found here:
+[Click me](./stretched)
