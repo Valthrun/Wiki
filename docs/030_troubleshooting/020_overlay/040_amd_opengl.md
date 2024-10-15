@@ -1,70 +1,73 @@
-# Vulkan driver issues
-Especially AMD users and some nvidia users may experience some issues when trying to run the Valthrun controller.  
-This issue manifest in various error messages, but two common ones are:
+# Vulkan Driver And Overlay Issues
+
+Many AMD and Nvidia users may experience issues when attempting to run the Valthrun controller. This issue manifests through various error messages, with common examples including:
 - `Unable to find a Vulkan driver`
 - `Failed to load vulkan-1.dll (os error 14001)`
-- The overlay is just black instead of being transparent
+- The overlay is black or white instead of transparent
 
-The precise cause of these issues remains unknown, leading to an absence of a universally accepted solution.  
-However, various methods have been reported by some users as effective in addressing these problems.  
+While the precise cause of these issues is currently unknown, several methods have been reported as effective by different users.
 
 ## Potential Solutions
 
-### Using AMD's Pro Drivers
-For certain users encountering this issue, employing AMD's professional-grade drivers may offer a solution.  
-To install the AMD pro drivers, use DDU (Display Driver Uninstaller) and install the AMD pro drivers.
+### General Solutions (For Both AMD and Nvidia)
 
-### Copying vulkan-1.dll from Chrome
-Another approach that has been successful for some users is copying the "vulkan-1.dll" file from their local installation of the Google Chrome web browser and pasting it into the directory where the "controller.exe" for Valthrun is located. 
-This method has resolved the issue for some, making it a potential workaround for those experiencing driver-related problems.  
-  
-The `vulkan-1.dll` shipped with Chrome can usually be found in the following folder:  
-`C:\Program Files (x86)\Google\Chrome\Application\` followed by a folder with the Chrome version number.  
-  
-:::note
-If this does not solves your issue, ensure you're deleting the `vulkan-1.dll` located along with the `controller.exe`.  
-Keeping the `vulkan-1.dll` may cause some issues on its own.
-:::
+#### Issue: `Unable to find a Vulkan driver` or `Failed to load vulkan-1.dll (os error 14001)`
 
-### Installing the Vulkan Runtime
-Another possible solution, especially when you get a Vulkan error might be, to install the Vulkan Runtime.  
-The Vulkan Runtime can be obtained here: https://vulkan.lunarg.com/sdk/home  
-Download and install the `Runtime - Runtime Installer`.  
+##### Installing the Vulkan Runtime
+If you encounter a Vulkan error, installing the Vulkan Runtime may help. You can download and install it from [LunarG’s official site](https://vulkan.lunarg.com/sdk/home) by selecting `Runtime - Runtime Installer`.  
 ![Vulkan Runtime](../../_media/screenshot_vulkan_runtime.png)
 
-### Downgrading AMD Driver to 23.7.1
-For some affected users, downgrading the AMD driver to version 23.7.1 has proven to be a viable solution.  
-To perform this downgrade, users can obtain the driver from the official AMD website or via the following link:
-[AMD Driver 23.7.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-7-1)
+##### Copying `vulkan-1.dll` from Chrome
+Another workaround involves copying the `vulkan-1.dll` file from the local installation of Google Chrome and placing it in the directory where `controller.exe` is located.
 
-Discord discussion:  
-https://discord.com/channels/1135362291311849693/1135362291311849698/1154795646344241303
+The `vulkan-1.dll` file for Chrome is usually found in:  
+`C:\Program Files (x86)\Google\Chrome\Application\` followed by a folder with the Chrome version number.
 
-## Configuring Vulkan using Vulkan Configurator / Opening Vulkan Configurator for detection problems and FPS issues
-Another possible solution for any AMD Driver version is directly configuring how vulkan interacts with the controller application or just opening up the configurator alone for some reason has something to do with how vulkan acts with the controller.
-If opening up the Vulkan Configurator alone doesn't help users situation, following the steps below could prove viable for getting most versions of drivers to work
+:::note
+If this does not resolve your issue, delete any `vulkan-1.dll` file located in the same folder as `controller.exe` to prevent additional conflicts.
+:::
 
-I have now fixed vulkan detection and low fps issues using the Vulkan configurator, this is what worked for me it may not work for everyone its just my findings. 
+##### Using Vulkan Configurator (for Detection and FPS Issues)
+Directly configuring Vulkan interactions with the controller application or simply opening the Vulkan Configurator can help. Follow these steps if you encounter Vulkan detection or FPS issues.
 
-### Fixing vulkan detection issues
-1. Step 1 - click any of the three configurations  
-![image](https://github.com/Valthrun/Wiki/assets/60718218/8e5af2be-9d01-4df5-a5b2-7ab1eba4ecda)
+###### Fixing Vulkan Detection Issues
+1. **Choose any of the three configurations**  
+   ![image](https://github.com/Valthrun/Wiki/assets/60718218/8e5af2be-9d01-4df5-a5b2-7ab1eba4ecda)
+2. **In the application launcher, click the three dots to add `controller.exe`**  
+   ![image](https://github.com/Valthrun/Wiki/assets/60718218/99f63152-6820-4245-a7f4-f4343a834da2)
+3. **Add `controller.exe` as an option and press launch**  
+   ![image](https://github.com/Valthrun/Wiki/assets/60718218/4a292d93-3566-418b-b9b7-6bea549c6a35)
 
-2. Step 2 - Next go to application launcher and click the 3 dots circled in the image  
-![image](https://github.com/Valthrun/Wiki/assets/60718218/99f63152-6820-4245-a7f4-f4343a834da2)
+###### Fixing FPS Issues
+1. **Open Vulkan Configurator**  
+2. **Go to "Vulkan Layers Configurations" and adjust `portability`, `synchronization`, and `validation` layers to the “Reduced-overhead” preset**  
+   ![image](https://github.com/Valthrun/Valthrun/assets/60718218/76e5023f-874a-4376-9d8a-4dcfb69497cd)
+3. **Test the settings to see which works for you** (portability or synchronization layers typically work best).
 
-3. Step 3 - click add and add the controller.exe file as an option  
-![image](https://github.com/Valthrun/Wiki/assets/60718218/4a292d93-3566-418b-b9b7-6bea549c6a35)
+### General Solutions (For Both AMD and Nvidia) for Overlay Issues
 
-4. Step 4 - press launch 
+#### Issue: Overlay is Not Transparent
 
-### Fixing FPS issues
-1. Step 1 - open vulkan configurator 
+##### Disabling Windows HDR
+Disable HDR by going to Settings > System > Display > HDR.
 
-2. Step 2 - you will see an area that says vulkan layers configurations go to portability, synchronization, and validation and set each one to Reduced-overhead preset in the settings 
-![image](https://github.com/Valthrun/Valthrun/assets/60718218/76e5023f-874a-4376-9d8a-4dcfb69497cd)
+### AMD-Specific Solutions
 
-3. Step 3 - as stated in detection problems use one of the three options that you just configured to see which works for you. (usually portability or synchronization) 
+#### Using AMD's Pro Drivers
+Some users have reported success using AMD's Pro drivers. To switch, use Display Driver Uninstaller (DDU) to remove your current drivers and then install the AMD Pro drivers.
 
+#### Downgrading AMD Driver to 23.7.1
+For AMD users encountering this issue, downgrading the driver to version 23.7.1 may help. This version is available on AMD's official website, or you can download it directly: [AMD Driver 23.7.1](https://www.amd.com/en/support/kb/release-notes/rn-rad-win-23-7-1).
 
+### Nvidia-Specific Solutions
 
+#### Use Native Present Method
+1. **Open NVIDIA Control Panel and go to "Manage 3D Settings"**  
+   ![image](../_media/nvidia_control_panel_1.png)
+2. **Switch to "Program Settings"**  
+   ![image](../_media/nvidia_control_panel_2.png)
+3. **Click "Add" and find `controller.exe`, then click "Add Selected Program"**  
+   ![image](../_media/nvidia_control_panel_3.png)
+4. **Scroll down to `Vulkan/OpenGL present method` and switch it to `Prefer native`**  
+   ![image](../_media/nvidia_control_panel_4.png)
+5. **Apply settings**
