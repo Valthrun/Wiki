@@ -63,11 +63,11 @@ For AMD users encountering this issue, downgrading the driver to version 23.7.1 
 
 #### Use Native Present Method
 1. **Open NVIDIA Control Panel and go to "Manage 3D Settings"**  
-   ![image](../_media/nvidia_control_panel_1.png)
+   ![image](../../_media/nvidia_control_panel_1.png)
 2. **Switch to "Program Settings"**  
-   ![image](../_media/nvidia_control_panel_2.png)
+   ![image](../../_media/nvidia_control_panel_2.png)
 3. **Click "Add" and find `controller.exe`, then click "Add Selected Program"**  
-   ![image](../_media/nvidia_control_panel_3.png)
+   ![image](../../_media/nvidia_control_panel_3.png)
 4. **Scroll down to `Vulkan/OpenGL present method` and switch it to `Prefer native`**  
-   ![image](../_media/nvidia_control_panel_4.png)
+   ![image](../../_media/nvidia_control_panel_4.png)
 5. **Apply settings**
