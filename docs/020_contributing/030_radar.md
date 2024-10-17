@@ -30,7 +30,7 @@ In order to use the radar you have to do some steps:
 2. Start the standalone radar client (cs2 needs to be open)
    ```
    cd radar\client-standalone
-   cargo r -- -s 127.0.0.1:7228
+   cargo r -- -p ws://127.0.0.1:7229/publish
    ```
 
 3. Start the web page via webpack-dev-server
