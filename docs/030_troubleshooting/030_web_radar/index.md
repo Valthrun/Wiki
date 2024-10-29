@@ -1,5 +1,5 @@
 ---
-title: Web radar
+title: CS2 Web Radar
 ---
 
 # Troubleshooting web radar related issues

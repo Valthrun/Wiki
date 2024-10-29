@@ -1,13 +1,13 @@
 ---
 title: KDMapper
 ---
-# Use KDMapper to load the Valthrun driver
+# Use KDMapper to load the Valthrun Kernel Driver
+## What is KDMapper
+[KDMapper](https://github.com/TheCruZ/kdmapper) is the recommended method for manually loading the Valthrun Kernel Driver into memory.  
+This simple tool exploits the `iqvw64e.sys` Intel driver to map non-signed drivers, allowing you to load any driver, including the Valthrun Kernel Driver.  
 
-[KDMapper](https://github.com/TheCruZ/kdmapper) is the recommended method for manually loading the Valthrun driver into memory.  
-This simple tool exploits the `iqvw64e.sys` Intel driver to map non-signed drivers, allowing you to load any driver, including the Valthrun driver.  
-
-## Map the Valthrun driver
-To map the Valthrun driver with KDMapper, follow these steps:
+## Map the Valthrun Kernel Driver
+To map the Valthrun Kernel Driver with KDMapper, follow these steps:
 
 1. **Obtain KDMapper**  
    Before you can use KDMapper, you need a working executable of KDMapper.  
@@ -27,11 +27,11 @@ To map the Valthrun driver with KDMapper, follow these steps:
    You can do this by right-clicking on the Command Prompt or PowerShell and selecting "Run as administrator.".  
 
 3. **Navigate to the Valthrun directory**  
-   Before proceeding with the Valthrun driver loading process using KDMapper, make sure you are in the correct directory where kdmapper.exe and valthrun-driver.sys are located.  
+   Before proceeding with the Valthrun Kernel Driver loading process using KDMapper, make sure you are in the correct directory where kdmapper.exe and valthrun-driver.sys are located.  
    Use the cd command to navigate to the directory where these files are located, ensuring that KDMapper can access the required components for the driver loading procedure.
 
 4. **Load `valthrun-driver.sys` with KDMapper**  
-   To load the Valthrun driver into memory, execute the following command in your command prompt or PowerShell:  
+   To load the Valthrun Kernel Driver into memory, execute the following command in your command prompt or PowerShell:  
    ```bash
    kdmapper.exe valthrun-driver.sys
    ```
@@ -64,12 +64,12 @@ If everything has been done successfully, the output should resemble the followi
   
 
 Ensure that the output contains the line: `[+] DriverEntry returned 0x0`.   
-If this line is present, it indicates a successful loading of the Valthrun driver.   
+If this line is present, it indicates a successful loading of the Valthrun Kernel Driver.   
 However, if this line is **not found in the output**, it suggests that the **mapping process failed**.   
 In such cases, please refer to the troubleshooting section for guidance on resolving the issue.
 
 ## Troubleshooting
-Informations on how to troubleshoot common KDMapper errors can be found [here](../../troubleshooting/kernel/driver_mapper_errors)
+Informations on how to troubleshoot common KDMapper errors can be found [here](../../../troubleshooting/kernel/driver_mapper_errors)
 
 ## Advantages / Disadvantages
 <h2>Advantages</h2>

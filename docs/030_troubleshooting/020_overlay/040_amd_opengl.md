@@ -1,4 +1,4 @@
-# Vulkan Driver And Overlay Issues
+# Vulkan Driver and Graphic Card Issues
 
 Many AMD and Nvidia users may experience issues when attempting to run the Valthrun controller. This issue manifests through various error messages, with common examples including:
 - `Unable to find a Vulkan driver`

@@ -40,7 +40,7 @@
     "description": "The generated-index page title for category Kernel Driver in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Kernel Driver.link.generated-index.description": {
-    "message": "If you're having trouble getting the valthrun driver to load, you might find help here",
+    "message": "If you're having trouble getting the Valthrun Kernel Driver to load, you might find help here",
     "description": "The generated-index page description for category Kernel Driver in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Valthrun Overlay": {

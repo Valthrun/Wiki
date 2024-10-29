@@ -2,20 +2,24 @@
 title: Valthrun EFI loader
 ---
 
-import ImageScreenshotUefiLoaderMenu from "../../_media/screenshot_uefi_loader_menu.png";
-import ImageScreenshotUefiLoaderEnrol from "../../_media/screenshot_uefi_loader_enrol.png";
-import ImageScreenshotUefiLoaderEnrolYes from "../../_media/screenshot_uefi_loader_enrol_yes.png";
-import ImageScreenshotUefiRufus from "../../_media/screenshot_uefi_rufus.png";
+import ImageScreenshotUefiLoaderMenu from "../../../_media/screenshot_uefi_loader_menu.png";
+import ImageScreenshotUefiLoaderEnrol from "../../../_media/screenshot_uefi_loader_enrol.png";
+import ImageScreenshotUefiLoaderEnrolYes from "../../../_media/screenshot_uefi_loader_enrol_yes.png";
+import ImageScreenshotUefiRufus from "../../../_media/screenshot_uefi_rufus.png";
 
 # Using the Valthrun EFI loader
-
-Mapping the Valthrun driver by using the Valthrun EFI loader is the most secure and esiest way to map the Valthrun driver.  
-To map the Valthrun driver with the Valthrun EFI loader, follow these steps:
+The Valthrun EFI Loader is the most secure and easiest method for mapping the Valthrun Kernel Driver.
+It automatically injects the Valthrun Kernel Driver into the Windows kernel during system startup by
+interfacing with the Windows loading process at the UEFI level. This approach ensures seamless integration
+of the driver into the kernel, preventing other drivers from observing the loading process and eliminating
+the need for any manual intervention.  
+  
+To map the Valthrun Kernel Driver with the Valthrun EFI loader, follow these steps.
 
 :::danger
-Ensure software which scans for system integrity on a kernel based level (e.g. kernel anticheats) are disabled before proceeding!  
-The valthrun driver will load regardless of these other drivers and may be therefore flagged.  
-Read more [here](#info-integrity-checkers).
+Ensure that any software scanning for system integrity at the kernel level (e.g., anti viruses, kernel anticheats) is disabled before proceeding!
+The Valthrun Kernel Driver will load regardless of these other drivers, which may lead to it being flagged.
+For more information, please read [here](#info-integrity-checkers).
 :::
 
 ## Initial setup
@@ -125,8 +129,8 @@ From this step onwards you do not need the USB drive untill next system start.
 
 ## Mapping Valthrun again after reboot
 
-With every system shutdown the Valthrun driver will be unloaded.  
-You'll have to boot via the Valthrun EFI loader to load the Valthrun driver on system start.  
+With every system shutdown the Valthrun Kernel Driver will be unloaded.  
+You'll have to boot via the Valthrun EFI loader to load the Valthrun Kernel Driver on system start.  
 You can ether do this by selecting the Valthrun EFI loader manually every time (see [step 3](#step-3)) or change the boot order of your system.
 
 ## Additional info
@@ -135,6 +139,6 @@ You can ether do this by selecting the Valthrun EFI loader manually every time (
 
 Ensure software which scans for system integrity on a kernel based level (e.g. kernel anticheats) are disabled before proceeding!
 Failing to do so may result in such software "flagging" your system.  
-The publically available Valthrun driver is not designed to be stealhy!  
+The publically available Valthrun Kernel Driver is not designed to be stealhy!  
 Some such driver vendors might block unsigned drivers for security reasons.
-By using this EFI loader the Valthrun driver will be loaded with highest priority before any other installed driver.
+By using this EFI loader the Valthrun Kernel Driver will be loaded with highest priority before any other installed driver.

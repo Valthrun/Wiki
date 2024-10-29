@@ -1,5 +1,5 @@
 ---
-title: Web Radar
+title: CS2 Web Radar
 ---
 
 # Developing / Building the Radar

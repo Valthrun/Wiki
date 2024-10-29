@@ -1,5 +1,5 @@
 ---
-title: CS2 ingame overlay
+title: CS2 Overlay
 ---
 
 # Building the Valthrun CS2 Overlay

@@ -24,7 +24,6 @@ Valthrun 旨在兼容各种 Windows 版本。
 | [Manual Mapping via KD-Mapper](./kdmapper) | 中等 | 高 |
 | [Manual Mapping via KDU](./kdu) | 中等 | 中等 |
 | [Using Windows Test-Signing](./test-signing) | 低 | 非常高 |
-| [Manual Mapping via Other Mappers](./other-mappers) | 未知 | 未知 |
 
 该方法的指南条目尚未完成
 

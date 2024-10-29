@@ -1,5 +1,5 @@
-# Valthrun and CS2 full screen mode
-The valthrun overlay works with CS2 "Windowed" and "Fullscreen Windowed" mode.  
+# Not visible in full screen mode
+The Valthrun CS2 Overlay works with CS2 "Windowed" and "Fullscreen Windowed" mode.  
 The third mode, "Fullscreen" is *not* supported and will most likely never be supported.  
   
 As far as I'm aware, there is no way to support full screen mode as an external application.  

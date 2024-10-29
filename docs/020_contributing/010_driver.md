@@ -2,7 +2,7 @@
 title: Kernel Driver
 ---
 
-# Contributing to the valthrun kernel driver
+# Contributing to the Valthrun kernel Driver
 Currently the kernel driver is private.  
 Use the prebuild kernel driver available within the github releases.
   

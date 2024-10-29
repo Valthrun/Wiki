@@ -1,5 +1,5 @@
 ---
-title: The driver has not been loaded
+title: Could not find kernel driver interface
 ---
 
 # The kernel driver has not been loaded

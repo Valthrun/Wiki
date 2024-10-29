@@ -1,4 +1,10 @@
-# Open the GUI without a PAUSE key
+---
+title: Missing PAUSE key
+---
+# Missing PAUSE Keyboard Key
+The Valthrun CS2 Overlay uses the `PAUSE` Keyboard key by default to open the overlay.
+
+## Open the GUI without a PAUSE key
 Some keyboards do not contain a PAUSE key, which is the default key to open the Valthrun overlay menu.  
 If you don't have the PAUSE key, you can open the Valthrun menu via the Windows On-Screen Keyboard.
 Once opened, you can change the default key to whatever key you wan't to.
