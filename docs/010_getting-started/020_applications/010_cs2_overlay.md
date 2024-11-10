@@ -57,6 +57,12 @@ If everything is set up correctly, you should see a terminal window looking like
 With these steps completed, you are now ready to use Valthrun and take advantage of its gameplay enhancements for Counter-Strike 2.
 You can access the overlay by pressing the `PAUSE` key. If you do not have such key please refer to [Open the GUI without a PAUSE key](../../troubleshooting/overlay/pause_key)
 
+## Usage along with Faceit
+
+It is possible to use the Valthrun CS2 in-game overlay along with the Zenith driver for Faceit, but it is not recommended. Using the overlay while playing Counter Strike 2 on Faceit might result in your account being flagged due to potential violations of Faceit’s policies.
+
+A possible solution to retain all the functionalities of the overlay without actually overlaying the game might be developed in the future. This would allow users to benefit from the features without risking detection.
+
 ## Showcase
 
 import Showcase from "@site/src/components/showcase";

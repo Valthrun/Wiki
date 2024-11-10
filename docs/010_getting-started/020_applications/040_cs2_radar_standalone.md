@@ -35,3 +35,8 @@ radar_client.exe -h
 ```
 
 :::
+
+## Usage along with Faceit
+
+The CS2 standalone web radar, when used in combination with the Zenith driver, can be used alongside Faceit.
+The web radar operates independently without the risk of being flagged for because of the use overlays.
