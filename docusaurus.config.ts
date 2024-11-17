@@ -60,8 +60,8 @@ const config: Config = {
                 //     label: 'Documentation',
                 // },
                 // {
-                //     href: 'https://github.com/Valthrun/Wiki',
-                //     label: 'GitHub',
+                //     href: 'https://valth.run/',
+                //     label: 'Valthrun Homepage',
                 //     position: 'right',
                 // },
                 {
@@ -73,6 +73,19 @@ const config: Config = {
         footer: {
             style: 'dark',
             links: [
+                {
+                    title: 'Websites',
+                    items: [
+                        {
+                            label: 'Valthrun Homepage',
+                            href: 'https://valth.run/',
+                        },
+                        {
+                            label: 'Valthrun Portal',
+                            href: 'https://valth.run/portal',
+                        },
+                    ],
+                },
                 {
                     title: 'Community',
                     items: [
