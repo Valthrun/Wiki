@@ -5,7 +5,7 @@ title: Zenith Driver
 # Valthrun Zenith Driver
 
 :::note
-The Valthrun Zenith Driver is a premium feature and is only available to premium members.
+The Valthrun Zenith Driver is a premium feature and is only available to [premium members](/premium#benefits-of-valthrun-premium).
 :::
 
 The Valthrun Zenith Driver is designed to read from and write to arbitrary physical or virtual memory. This implementation is completely transparent to the Windows operating system, achieved by hijacking the Virtualization-Based Security (VBS) feature of Windows, bypassing typical OS-level detection mechanisms.
