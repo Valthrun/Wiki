@@ -40,9 +40,10 @@ If you encounter any issues while following this quick setup guide, please refer
    There are multiple ways to load the kernel driver. Instructions on how to load the kernel driver, are documented [here](./driver/).
 
 2. **Download the latest CS2 ingame overlay version**  
-   Download the latest CS2 ingame overlay from GitHub:  
-   https://github.com/Valthrun/Valthrun/releases/tag/latest  
-   The file is called `controller.exe`.
+   Download the latest CS2 ingame overlay from the Valthrun Homepage:  
+   https://valth.run/download
+
+   The bundle is called `CS 2 Enhancements` and contains the `controller.exe`.
    :::warning
    Ensure that you place the controller.exe in the same folder as the drivers interface `.dll` file.  
    (e.g. `driver.dll`, `driver-zenith.dll` or `driver-kernel.dll`)

@@ -40,8 +40,8 @@ To access Valthruns settings overlay press `PAUSE`.
 Before you can use the CS2 ingame overlay you have to optain the following prerequiresits:
 
 1. Download the CS2 ingame overlay (controller.exe)
-   Download the latest CS2 ingame overlay from GitHub:
-   https://github.com/Valthrun/Valthrun/releases/tag/latest
+   Download the latest CS2 ingame overlay (contained within CS2 Enhancements) from the Valthrun Homepage:
+   https://valth.run/download
 
 2. Setup one of the Valthrun drivers  
    How you can setup a Valthrun driver is described in detail in the [drivers section](../driver/).  

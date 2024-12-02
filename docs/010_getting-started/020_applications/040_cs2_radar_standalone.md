@@ -11,8 +11,8 @@ The standalone web radar provides the full web radar experience, without the in 
 Before you can start the standalone web radar you have to optain the following prerequiresits:
 
 1. Download the standalone web radar client  
-   Download the latest radar client from GitHub:
-   https://github.com/Valthrun/Valthrun/releases/tag/latest
+   Download the latest radar client (contained within CS2 Enhancements) from Valthrun Homepage:
+   https://valth.run/download
 
 2. Setup one of the Valthrun drivers  
    How you can setup a Valthrun driver is described in detail in the [drivers section](../driver/).  
