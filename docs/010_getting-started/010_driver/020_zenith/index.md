@@ -32,13 +32,24 @@ The Valthrun Zenith Driver has to be loaded on every system start and is unloade
 It is recommended to remove the USB stick once the Zenith Driver has been loaded. This prevents any applications from scanning your USB stick later.
 :::
 
-### 4. Enjoy!
+### 4. Verify load success
 
 If you have successfully booted from your Zenith bootable USB stick and see the following message, the Valthrun Zenith Driver has been loaded successfully.
 
 ![Zenith Loader Ok](@site/docs/_media/zenith_loader_status_ok.png)
 
-You can now use Valthrun applications with the Zenith Driver. For an overview of recommended applications, see Recommended [Applications for Zenith](#recommanded-applications-for-zenith).
+### 5. Setup the Zenith User Mode Driver Interface
+
+To enable user mode applications, such as the [Valthrun CS2 radar client](../../applications/cs2_radar_standalone), to communicate with Zenith, ensure they can access the Zenith driver interface.
+Simply place the `driver_interface_zenith_[...].dll` file in the same directory as the target application executable (`.exe`).
+
+For additional details, refer to the [Application Setup](./application_setup) page.
+
+### 6. Enjoy!
+
+If you have successfully booted from your Zenith bootable USB stick and setup the driver interface you are ready to go. You can now use the Valthrun applications with the Zenith Driver!
+
+For an overview of recommended applications, see [Recommended applications for Zenith](#recommanded-applications-for-zenith).
 
 ## Recommanded applications for Zenith
 

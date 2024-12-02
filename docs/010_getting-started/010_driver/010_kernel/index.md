@@ -28,3 +28,9 @@ Each method for loading the Valthrun Kernel Driver varies in complexity and succ
 ## Supported Windows Versions
 
 The Valthrun Kernel Driver is designed for compatibility across a broad spectrum of Windows versions, with support for recent versions ensured by dynamically resolving function calls and structure offsets. Testing confirms stability on the latest Windows 10 and Windows 11 versions, including 22H2, and user feedback suggests functionality on versions as far back as 20H2. Should you experience any issues, please submit an issue report with your Windows version and error description on the official [GitHub repository](https://github.com/Valthrun/valthrun).
+
+## VAC Considerations
+
+The same considerations as mentioned in [this link](https://github.com/dretax/GarHal_CSGO#starting-driver) have been taken into account.  
+With these precautions and some minor improvements, such as omitting the Valthrun identifier and using xor encryption for strings, the driver/overlay should avoid VAC detection. However, I must clarify that I haven't extensively studied VAC, so my conclusion is speculative. Personally, I have been using a C based driver/overlay like this with CSGO for several years without ever getting VAC banned. But be aware of overwatch!  
+With VAC live being enabled now, use this with caution. As always take the necessary precautions into consideration.
