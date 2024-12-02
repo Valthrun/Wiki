@@ -6,7 +6,7 @@ title: Valthrun Drivers
 
 In order for user-mode applications, such as the [Valthrun CS2 overlay](../applications/cs2_overlay) or the [Valthrun CS2 Web Radar](../applications/cs2_radar_standalone), to access the memory of other processes, a driver is required. The Valthrun suite provides multiple implementations of such drivers, tailored to different circumstances and requirements of the target processes.
 
-## Available Valthrun Driver
+## Available Valthrun Drivers
 
 Each implementation is designed to handle specific scenarios, ensuring optimal performance and compatibility based on the security and protection measures in place for the processes you wish to attach to. Even though Valthrun offers a variety of drivers, you only need to load one of the drivers.
 
