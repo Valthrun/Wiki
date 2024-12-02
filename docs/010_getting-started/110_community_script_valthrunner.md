@@ -8,6 +8,10 @@ title: CS2 Overlay all in one script (Community)
 This script has been made by @Valthrunner and is not officially supported by Valthrun.  
 For assistance or troubleshooting regarding this script, visit `#support-run-script` on the official [Valthrun Discord](https://discord.gg/ecKbpAPW5T).
 :::
+:::warning
+This script currently only supports the [Valthrun Kernel driver](./driver/kernel/).  
+The [Zenith driver](./driver/zenith) is not supported by this script.
+:::
 
 ## Features
 
