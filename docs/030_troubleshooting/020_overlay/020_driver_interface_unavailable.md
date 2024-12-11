@@ -26,7 +26,7 @@ Most certenly this error is caused because the kernel driver (`valthrun-driver.s
 Common pifalls are:
 
 - Simply forgot to map the driver  
-  You may just forgot to map the driver. Information on how to load the driver can be found [here](../../getting-started/driver).  
+  You may just forgot to map the driver. Information on how to load the driver can be found [here](../../../getting-started/driver).  
   :::note
   You have to map the driver again after you restarted your PC.
   :::

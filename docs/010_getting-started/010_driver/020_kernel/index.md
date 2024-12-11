@@ -18,7 +18,7 @@ Here is a quick overview of various methods for loading the Valthrun Kernel Driv
 | -------------------------------------------- | ---------- | ------------ |
 | [Valthrun EFI loader](./efi-bootloader)      | Medium     | High         |
 | [Manual Mapping via KD-Mapper](./kdmapper)   | Medium     | Medium       |
-| [Manual Mapping via KDU](:/kdu)\*            | Medium     | Medium       |
+| [Manual Mapping via KDU](./kdu)\*            | Medium     | Medium       |
 | [Using Windows Test-Signing](./test-signing) | Low        | Very High    |
 
 \* The wiki entry for this method has not yet been completed

@@ -9,8 +9,8 @@ This script has been made by @Valthrunner and is not officially supported by Val
 For assistance or troubleshooting regarding this script, visit `#support-run-script` on the official [Valthrun Discord](https://discord.gg/ecKbpAPW5T).
 :::
 :::warning
-This script currently only supports the [Valthrun Kernel driver](./driver/kernel/).  
-The [Zenith driver](./driver/zenith) is not supported by this script.
+This script currently only supports the [Valthrun Kernel driver](../driver/kernel/).  
+The [Zenith driver](../driver/zenith) is not supported by this script.
 :::
 
 ## Features
@@ -27,7 +27,7 @@ The [Zenith driver](./driver/zenith) is not supported by this script.
 
 3. **Adjust Video Settings**: Ensure CS2 is in fullscreen windowed or windowed mode for the overlay to display correctly.
 
-4. **Configure Valthrun**: Press the PAUSE key and configure Valthrun (if you can't find it, check out: [Open the GUI without a PAUSE key](../troubleshooting/overlay/pause_key)).
+4. **Configure Valthrun**: Press the PAUSE key and configure Valthrun (if you can't find it, check out: [Open the GUI without a PAUSE key](../../troubleshooting/overlay/pause_key)).
 
 5. **Show Some Love**: Add a Star to these repos: [Script](https://github.com/valthrunner/Valthrun) & [Valthrun](https://github.com/Valthrun/Valthrun)! :star2:
 

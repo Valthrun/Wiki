@@ -29,7 +29,7 @@ There are a few precautions you can take if you're unsure whatever Valthrun is l
 
 2. Compile Valthrun yourself  
    As the user mode application is open source, you can build Valthrun yourself and ensure that there is no malicious behaviour.
-   Building Valthrun yourself is rather easy and described [here](../contributing/overlay).
+   Building Valthrun yourself is rather easy and described [here](../../contributing/overlay).
 
 3. Do not use Valthrun  
    If you're still unsure, whatever Valthrun is malicious or not, then there is a simple solution: avoidance.  

@@ -6,7 +6,7 @@ title: Architectural overview
 
 Valthrun is a suite of tools developed to enhance gaming experiences by providing applications that offer additional game insights and functionalities. These tools range in purpose, such as displaying in-game overlays or broadcasting radar information independently. Each Valthrun application relies on the ability to access another application's memory, enabling the extraction and display of game-related data.
 
-The Valthrun system achieves this memory access through its drivers, which are designed to operate silently within or alongside the Windows environment. Some drivers are mapped into the Windows kernel (e.g. the [Kernel driver](./driver/kernel)), while others load even before Windows starts to work along with Hyper-V’s Virtual Machine Monitor (VMM), effectively shilding itself from the operating system (e.g. the [Zenith driver](./driver/zenith)).
+The Valthrun system achieves this memory access through its drivers, which are designed to operate silently within or alongside the Windows environment. Some drivers are mapped into the Windows kernel (e.g. the [Kernel driver](../driver/kernel)), while others load even before Windows starts to work along with Hyper-V’s Virtual Machine Monitor (VMM), effectively shilding itself from the operating system (e.g. the [Zenith driver](../driver/zenith)).
 
 To enable communication between Valthrun’s user-mode applications and the drivers, each driver is packaged with a user-mode driver interface in the form of a dynamic-link library (DLL). This interface standardizes access across all Valthrun applications, ensuring compatibility and ease of use.
 
@@ -27,13 +27,13 @@ Example of such applications are:
 
 - the standalone radar client, that broadcasts radar data to external viewers
 
-Detailed information on each application is available in the [Applications Section](./applications).
+Detailed information on each application is available in the [Applications Section](../applications).
 
 ## Valthrun Driver
 
 The Valthrun driver is a crucial component that enables user-mode applications to read the memory of other processes. Valthrun provides a range of driver implementations, each tailored to specific scenarios and requirements. These drivers are designed to accommodate varying levels stealthiness.
 
-An overview of available drivers can be found in the [Drivers Section](./driver).
+An overview of available drivers can be found in the [Drivers Section](../driver).
 
 ## Valthrun Driver Interface
 

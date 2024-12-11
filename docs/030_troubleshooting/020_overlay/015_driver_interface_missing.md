@@ -8,7 +8,7 @@ title: Driver Interface Missing
 
 The Valthrun application is looking for a special file (called a "driver interface") that it needs to work correctly. When it can't find this file, it throws this error. This file is essential for Valthrun to communicate with the driver.
 
-More about the [driver interface](../../getting-started/architechture#valthrun-driver-interface) can be read [here](../../getting-started/architechture#valthrun-driver-interface).
+More about the [driver interface](../../../getting-started/architechture#valthrun-driver-interface) can be read [here](../../../getting-started/architechture#valthrun-driver-interface).
 
 ## How to fix
 

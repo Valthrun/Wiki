@@ -10,7 +10,7 @@ The Valthrun overlay is an in game overlay over the running Counter Strike 2 app
 
 - External radar  
   Publish your game for everybody on https://radar.valth.run.  
-  More information can be found [here](./cs2_radar_standalone)
+  More information can be found [here](../cs2_radar_standalone)
 
 - Player ESP  
   ESP with a lot of configuration possibilities like: Skeleton, Boxes3D and Boxes2D
@@ -44,7 +44,7 @@ Before you can use the CS2 ingame overlay you have to optain the following prere
    https://valth.run/download
 
 2. Setup one of the Valthrun drivers  
-   How you can setup a Valthrun driver is described in detail in the [drivers section](../driver/).  
+   How you can setup a Valthrun driver is described in detail in the [drivers section](../../driver/).  
    The CS2 ingame overlay requires a Valthrun driver to be successfully loaded.
 
 ## Setup
@@ -55,7 +55,7 @@ If everything is set up correctly, you should see a terminal window looking like
 ![Screenshot of Success](../../_media/screenshot_controller_success.png)
 
 With these steps completed, you are now ready to use Valthrun and take advantage of its gameplay enhancements for Counter-Strike 2.
-You can access the overlay by pressing the `PAUSE` key. If you do not have such key please refer to [Open the GUI without a PAUSE key](../../troubleshooting/overlay/pause_key)
+You can access the overlay by pressing the `PAUSE` key. If you do not have such key please refer to [Open the GUI without a PAUSE key](../../../troubleshooting/overlay/pause_key)
 
 ## Usage along with Faceit
 

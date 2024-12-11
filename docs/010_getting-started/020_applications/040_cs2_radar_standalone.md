@@ -15,7 +15,7 @@ Before you can start the standalone web radar you have to optain the following p
    https://valth.run/download
 
 2. Setup one of the Valthrun drivers  
-   How you can setup a Valthrun driver is described in detail in the [drivers section](../driver/).  
+   How you can setup a Valthrun driver is described in detail in the [drivers section](../../driver/).  
    The CS2 ingame overlay requires a Valthrun driver to be successfully loaded.
 
 ## Starting the web radar
