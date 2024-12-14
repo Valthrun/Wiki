@@ -26,6 +26,12 @@ These features may need to be enabled in your BIOS. Check the setup driver secti
 
 Your AMD CPU must support AMD Virtualization (AMD-V) technology.
 
+### Memory Requirements
+
+In order to use Zenith it is recommended to have at least **32GB of memory** to prevent memory paging.  
+It is possible to use Zenith with 16GB of memory available but you may have to disable memory paging.
+You can read more about this [here](../../../../troubleshooting/driver_zenith/memory_paging).
+
 ### Operating System requirements
 
 #### UEFI boot
