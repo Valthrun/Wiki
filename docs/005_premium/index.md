@@ -23,3 +23,7 @@ You can buy your premium membership on the Valthrun portal:
 https://valth.run/portal/profile/membership
 
 [^1]: Support availability may be limited due to user-related factors, including but not limited to insufficient knowledge or excessively demanding behavior.
+
+## What happens if I encounter issues with Zenith?
+
+If you experience any issues with Zenith that cannot be resolved due to compatibility reasons, please don't hesitate to reach out to us on Discord. Our team will work to address the issue promptly. Additionally, if you lose any premium days as a result of the issue, we will restore them to ensure uninterrupted access to your services!
