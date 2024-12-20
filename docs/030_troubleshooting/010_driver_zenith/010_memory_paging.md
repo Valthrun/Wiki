@@ -14,18 +14,41 @@ The typical error message is as follows:
 failed to access memory because the target memory has been paged out
 ```
 
-## How to fix
+## Solutions
+
+:::warning
+Disabling the Windows page file can negatively impact system performance, particularly on systems with less than 32GB of memory.
+:::
 
 To prevent Windows from paging out memory that the Valthrun application needs to access, you must disable the Windows page file. A guide on how to disable the Windows page file can be found here:  
 https://wphosting.tv/how-to-disable-the-windows-page-file/
 
 ## Other possible solutions
 
-Disabling memory paging can negatively impact system performance, particularly on systems with less than 32GB of memory. To mitigate this, consider the following alternative solutions:
-
 ### Freeup system resources
 
 To prevent memory from being paged out, try to free up as much system memory as possible by closing unnecessary applications. Common memory-intensive applications include browsers and background startup programs. After freeing up resources, start the target application.
+
+### Prioritize Counter-Strike 2
+
+:::note
+Counter-Strike 2 must be running before you can set the priority.
+:::
+
+Prioritizing the Counter-Strike 2 process can help mitigate the effects of memory paging. This can be done by using the `WMIC` Command that stands for Windows Management Instrumentation Commandline.
+
+```
+wmic process where "name='cs2.exe'" CALL setpriority priority_value
+```
+
+Recommended priority values:
+
+| Priority Value | Priority Name        | Notes                                                          |
+|----------------|----------------------|----------------------------------------------------------------|
+| **32**         | Above Normal         | **Not Tested**                                                 |
+| **256**        | High                 | **Recommended, and can mostly prevent all memory paging**      |
+| **32768**      | Real-time            | **Not recommended to use in any case**                         |
+
 
 ### Start your application as soon as possible
 
