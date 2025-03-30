@@ -1,13 +1,24 @@
 # Create a Zenith bootable USB stick
 
-To load the Valthrun Zenith Driver, users must create a bootable USB stick using the Valthrun Zenith UEFI loader. This USB stick is prepared with the Valthrun Zenith installer and serves as the boot medium to initiate the driver. Follow the steps below to create the boot medium:
+To use the Valthrun Zenith Driver, users must
 
-## Create the bootable USB stick
+1. create a bootable USB stick containing the Zenith UEFI loader
+2. create a secondary local bootloader to chainload the Zenith USB stick
+
+Both will be automatically done by the Valthrun Zenith Installer.  
+Follow the steps below to install Zenith on your system:
 
 :::danger
 This operation will erase all data stored on your USB stick.  
 Ensure that the USB stick is empty or you do not need the data any more!
 :::
+
+:::warning
+If you already have a secondary bootloader e.g. GRUB2 installed the installation may fail.  
+Please contact us on Discord.
+:::
+
+## Install Zenith
 
 ### Step 1: Obtain the Zenith installer
 
@@ -17,15 +28,15 @@ In this step, we'll download the latest Zenith driver files from the official Va
 2. Download the latest `Zenith Driver` pacage.
 3. Extract the file including the installer from the downloaded ZIP file.
 
-### Step 2: Creating the bootable USB stick
+### Step 2: Installing Valthrun Zenith
 
-After downloading Zenith from the Valthrun homepage we will need to create a bootable USB flash drive.
-We'll use the Zenith installer to create the Zenith USB drive.
+After downloading Zenith from the Valthrun homepage we will need to create a bootable USB flash drive and setup a secondary local bootloader.
+We'll use the Zenith installer to do both for us.
 
 1. **Run the installer as Administrator**  
    Right click the Zenith Installer and run it as administator.
 
-2. **Select `Create Zenith Boot Medium (USB-Stick)`**  
+2. **Select `Install Zenith`**  
    When the installer is executed you are prompted with the operation you want to perform.
    Use the arrow keys to select `Create Zenith Boot Medium (USB-Stick)` and press `Enter`.
 
@@ -48,8 +59,8 @@ We'll use the Zenith installer to create the Zenith USB drive.
    ![Image Select USB](@site/docs/_media/zenith_installer_boot_medium_success.png)
 
 6. **Success**  
-   Your USB stick is not bootable and will load the Zenith driver. You can now restart the system and boot via your created Valthrun Zenith bootable USB stick.
+   Valthrun Zenith has been successfully installed. You can now restart the system and boot via the new boot option called "Ubuntu". Ensure you've your Zenith bootable USB stick plugged in!
 
-   :::tip
-   It is recommended to remove the USB stick once the Zenith Driver has been loaded. This prevents any applications from scanning your USB stick later.
+   :::note
+   Please remove the USB stick once the Zenith Driver has been loaded. This prevents any applications from scanning your USB stick later.
    :::
