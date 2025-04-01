@@ -23,7 +23,7 @@ const config: Config = {
     // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'en',
-        locales: ['en', 'zh-cn'],
+        locales: ['en', /*'zh-cn'*/],
     },
 
     presets: [
@@ -62,14 +62,14 @@ const config: Config = {
                 //     label: 'Documentation',
                 // },
                 // {
-                //     href: 'https://valth.run/',
-                //     label: 'Valthrun Homepage',
-                //     position: 'right',
+                //     href: 'https://valth.run/portal',
+                //     label: 'Portal',
+                //     position: 'left',
                 // },
-                {
-                    type: 'localeDropdown',
-                    position: 'left',
-                }
+                // {
+                //     type: 'localeDropdown',
+                //     position: 'left',
+                // }
             ],
         },
         footer: {
