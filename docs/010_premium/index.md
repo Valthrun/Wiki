@@ -22,7 +22,7 @@ By subscribing to Valthrun Premium, you unlock a variety of premium benefits tai
 You can buy your premium membership on the Valthrun portal:  
 https://valth.run/portal/profile/membership
 
-<iframe src="http://localhost:5173/iframe/memberships" sandbox="allow-top-navigation allow-scripts allow-forms" allowtransparency="true" height="350px" width="100%"> </iframe>
+<iframe src="https://valth.run/iframe/memberships" sandbox="allow-top-navigation allow-scripts allow-forms" allowtransparency="true" height="350px" width="100%"> </iframe>
 
 [^1]: Support availability may be limited due to user-related factors, including but not limited to insufficient knowledge or excessively demanding behavior.
 
