@@ -8,7 +8,7 @@ The standalone web radar provides the full web radar experience, without the in 
 
 ## Prerequiresits
 
-Before you can start the standalone web radar you have to optain the following prerequiresits:
+Before you can start the standalone web radar you have to obtain the following prerequiresits:
 
 1. Download the standalone web radar client  
    Download the latest radar client (contained within CS2 Enhancements) from Valthrun Homepage:
