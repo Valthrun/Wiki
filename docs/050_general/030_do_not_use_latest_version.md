@@ -58,4 +58,4 @@ Avoid:
 
 Use:
 
-> The bug I encountered was in `zenith_installer_e3fd67e`, downloaded from the official website on 2024-12-01.
+> The bug I encountered was in the **nightly** version of the `zenith_installer_123ebf` downloaded from the Valthrun Portal.
