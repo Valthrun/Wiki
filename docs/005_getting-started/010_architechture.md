@@ -10,17 +10,17 @@ The Valthrun system achieves this memory access through its drivers, which are d
 
 To enable communication between Valthrun’s user-mode applications and the drivers, each driver is packaged with a user-mode driver interface in the form of a dynamic-link library (DLL). This interface standardizes access across all Valthrun applications, ensuring compatibility and ease of use.
 
-This means, in order to use any Valthrun application you require three core components:
+This means, in order to use any Valthrun enhancers you require three core components:
 
-- the application
+- the enhancer
 - the driver
 - and the driver interface.
 
 A more detailed description of each component can be found in the next sections.
 
-## Valthrun User Mode Applications
+## Valthrun Enhancer
 
-Valthrun's user-mode applications are specialized tools that provide game-specific features. These applications use the drivers’ memory access capabilities to gather and display information in real time.  
+Valthrun's enhancer applications are specialized tools that provide game-specific features. These applications use the drivers’ memory access capabilities to gather and display information in real time.  
 Example of such applications are:
 
 - the Counter Strike 2 Controller, displaying an overlay with in-game statistics, offering players enhanced situational awareness
