@@ -23,8 +23,7 @@ To map the Valthrun Kernel Driver with KDMapper, follow these steps:
      Compiling it yourself ensures that you have control over the source code and can verify its integrity.
 
    - **Download a Precompiled Version**  
-     You can also find a precompiled version of KDMapper [here](https://github.com/valthrunner/Valthrun/releases/latest).  
-     Please note that this precompiled version is **not offered by Valtrun** but is compiled and uploaded by the user @valthrunner.  
+     You can also find a precompiled version of KDMapper [here](https://github.com/sinjs/kdmapper/releases/latest).  
      When downloading precompiled software, exercise caution and ensure that you trust the source.
 
 2. **Open a Command Line as Administrator**  

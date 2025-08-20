@@ -4,8 +4,7 @@ title: Using a 4:3 monitor resolution
 
 # How to play stretched with Valthrun
 :::info
-This script has been provided by `valthrunner`.  
-Other resources of him can be found [here](https://github.com/valthrunner/Valthrun).
+This script has been provided by `valthrunner`.
 :::
 
 To make Valthrun and CS2 work seamlessly with a 4:3 monitor resolution, follow these simple steps to download and use the provided script.
