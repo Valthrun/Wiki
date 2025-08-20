@@ -6,6 +6,6 @@ The PUBG Enhancer is available for Windows systems and is designed to run in a H
 
 2. Download Required Files and place them into the same folder:
    - [Download driver interface (Windows)](https://valth.run/portal/artifacts/driver-interface-zenith/release)
-   - [Download PUBG Enhancer (Windows)](https://github.com/PetrSeifert/Valthrun_PUBG/releases/latest)
+   - [Download PUBG Enhancer (Windows)](https://github.com/Valthrun/Valthrun_PUBG/releases/latest)
 
 3. Run the Pubg Enhancer executable

@@ -19,7 +19,7 @@ Running the Enhancer on Linux is intended solely for use with Zenith in a VM!
 
 4. Download Required Binaries:  
    - [Download driver interface (Linux)](https://valth.run/portal/artifacts/driver-interface-zenith/release-linux)
-   - [Download PUBG Enhancer (Linux)](https://github.com/PetrSeifert/Valthrun_PUBG/releases/latest)
+   - [Download PUBG Enhancer (Linux)](https://github.com/Valthrun/Valthrun_PUBG/releases/latest)
 
 5. Open WSL.  
 6. Move and Rename Binaries:  
@@ -27,7 +27,7 @@ Running the Enhancer on Linux is intended solely for use with Zenith in a VM!
 
    ```bash
    mv /mnt/c/Users/<username>/Downloads/driver_interface_zenith_[...].so libdriver.so
-   mv /mnt/c/Users/<username>/Downloads/pubg_enhancer_[...].so pubg_enhancer
+   mv /mnt/c/Users/<username>/Downloads/pubg_enhancer_[...] pubg_enhancer
    ```
 
 7. Run the Enhancer:
@@ -54,7 +54,7 @@ Running the Enhancer on Linux is intended solely for use with Zenith in a VM!
    - **Driver Interface (Zenith)**  
      [Download driver_interface_zenith](https://valth.run/portal/artifacts/driver-interface-zenith/release-linux)
    - **PUBG Enhancer**  
-     [Download pubg_enhancer](https://github.com/PetrSeifert/Valthrun_PUBG/releases/latest)
+     [Download pubg_enhancer](https://github.com/Valthrun/Valthrun_PUBG/releases/latest)
 
 2. These will be saved in your default Windows Downloads folder, e.g.,  
    `C:\Users\<YourUsername>\Downloads\`
@@ -69,7 +69,7 @@ Running the Enhancer on Linux is intended solely for use with Zenith in a VM!
 
    ```bash
    mv /mnt/c/Users/<YourUsername>/Downloads/driver_interface_zenith_*.so libdriver.so
-   mv /mnt/c/Users/<YourUsername>/Downloads/pubg_enhancer_*.so pubg_enhancer
+   mv /mnt/c/Users/<YourUsername>/Downloads/pubg_enhancer_* pubg_enhancer
    ```
 
    :::info
