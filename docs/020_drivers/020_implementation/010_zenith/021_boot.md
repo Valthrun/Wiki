@@ -1,14 +1,15 @@
 # Boot with Zenith
 
-The Valthrun Zenith Driver has to be loaded on every system start and is unloaded upon system shutdown.
+By default, your system does not automatically load the Valthrun Zenith Driver, and the driver **does not persist across restarts**.
+To use Zenith, you must boot your computer from the Valthrun Zenith USB stick that you created during installation.
 
 ## 1. Load Zenith on system startup
 
-To load it, boot the system via the new "Ubuntu" EFI entry. Ensure you've the Valthrun Zenith USB stick plugged in! This can be done by either manually selecting the "Ubuntu" EFI option at each boot or adjusting the system’s boot order to prioritize the Zenith loader for automatic loading on each startup.
+To load the Valthrun Zenith Driver, start your computer and boot from the Zenith USB stick.
 
 ## 2. Unplug Zenith USB stick
 
-Wait until you see the following message on the screen. If you do so, please remove the Zenith USB stick and press `F10` to continue booting.
+When you see the following message on screen, remove the Zenith USB stick and press `F10` to continue booting.
 
 ![Zenith Loader Ok](@site/docs/_media/zenith_loader_status_remove_usb.png)
 
@@ -16,12 +17,24 @@ Removing the Zenith USB stick prevents any applications from scanning your USB s
 
 ## 3. Verify load success
 
-If you have successfully booted with Zenithand see the following message, the Valthrun Zenith Driver has been loaded successfully. Windows will continue to boot in 5 seconds.
-
+If Zenith has loaded correctly, you’ll see the following message:
 ![Zenith Loader Ok](@site/docs/_media/zenith_loader_status_ok.png)
+Windows will automatically continue booting after five seconds.
 
 :::note
 If you do not see this message, Zenith failed to load!  
 Under some circumstances no explicit error will be shown.  
 Please seek help on our Discord.
 :::
+
+## 4. Verify Zenith at Runtime (Optional)
+After Windows has booted, you can verify that the Zenith Driver is active using the Zenith Installer.
+1. Run the installer as Administrator.
+2. Select the option `Zenith Integrity Check.`
+
+If everything is functioning properly, you’ll see the following output:
+```
+##############################################
+#    Valthrun Zenith successfully loaded!    #
+##############################################
+```

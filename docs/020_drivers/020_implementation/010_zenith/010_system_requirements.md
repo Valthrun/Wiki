@@ -1,5 +1,5 @@
 ---
-title: System Requirements
+title: Requirements
 ---
 
 # System Requirements for the Valthrun Zenith Driver
