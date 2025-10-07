@@ -1,5 +1,4 @@
 # Valthrun Driver Interface C API
-## Overview
 The C API for the Valthrun Driver Interface provides a low-level, minimalistic C API for interfacing with the Valthrun Driver. All public functions are prefixed with `vtum_` to clearly separate API boundaries.
 
 ## API Structure

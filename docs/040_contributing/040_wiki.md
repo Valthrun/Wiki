@@ -1,5 +1,5 @@
 ---
-title: Wiki
+title: Contributing to the Wiki
 ---
 
 # Contributing to the Wiki
