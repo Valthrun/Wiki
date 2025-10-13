@@ -13,7 +13,7 @@ It achieves this by using Windows Virtualization-Based Security (VBS) feature, w
 A more technical description on the Valthrun Zenith Driver can be found [here](./concept).
 
 :::note
-The Valthrun Zenith Driver is a premium feature and is only available to [premium members](/premium#benefits-of-valthrun-premium).
+The Valthrun Zenith Driver is a premium feature and is only available to [premium members](https://wiki.valth.run/premium#benefits-of-valthrun-premium).
 :::
 
 ## Driver Variations
@@ -36,7 +36,7 @@ More information on how to buy a discrete modified TPM chip can be found [here](
 ### 1. [Check system requirements](./system_requirements#checking-requirements)
 
 The Valthrun Zenith Driver has a couple of hardware and system requirements.
-Every modern system should be able to support these but to ensure that you support the Valthrun Zenith Installer as well as validate that your system has been configured please follow the [checking requirements](./system_requirements#checking-requirements) section in [system requirements](system_requirements).
+Every modern system should be able to support these but to ensure that you support the Valthrun Zenith Installer as well as validate that your system has been configured please follow the [checking requirements](./system_requirements#checking-requirements) section in [system requirements](./system_requirements).
 
 ### 2. [Create a Zenith boot USB](./installation/installation)
 
