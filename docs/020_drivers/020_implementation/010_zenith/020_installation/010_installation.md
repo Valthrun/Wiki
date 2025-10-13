@@ -31,22 +31,29 @@ We'll use the Zenith installer to do this for us.
 
    ![Image Option Select](@site/docs/_media/zenith_installer_install_option.png)
 
-3. **Select your target USB stick**  
+3. **Select your TPM capabilities**  
+   Please indicate whether your system has a discrete TPM with power-cycle capabilities installed.
+   A discrete TPM with power-cycle support provides full transparency and hardware-level consistency, significantly reducing detection risks compared to emulated TPM setups.
+   For detailed information on how to obtain such a TPM chip, refer to [buying a discrete TPM](../buying_discrete_tpm).
+
+   ![Image TPM capabilities](@site/docs/_media/zenith_installer_tpm_variation.png)
+
+4. **Select your target USB stick**  
    Select the USB stick which you want to use to create the Zenith boot USB stick.
 
    ![Image Select USB](@site/docs/_media/zenith_installer_install_select.png)
 
-4. **Confirm your selection**  
+5. **Confirm your selection**  
    **Verify** and confirm that you have selected the right USB stick.  
    Type `y` and hit `Enter` to confirm. Once confirmed all data on that USB stick is erased!
 
    ![Image Install Confirm](@site/docs/_media/zenith_installer_install_confirm.png)
 
-5. **Wait until completion**  
+6. **Wait until completion**  
    The Zenith installer now creates a bootable USB stick with Zenith. Please wait and **do not remove** the USB stick until `Zenith successfully installed` is shown.
 
    ![Image Install Success](@site/docs/_media/zenith_installer_install_success.png)
 
-6. **Success**  
+7. **Success**  
    Valthrun Zenith has been successfully installed. You can now restart the system and boot via the Zenith USB stick.  
    More details on how to boot with Zenith can be found [here](../../boot)

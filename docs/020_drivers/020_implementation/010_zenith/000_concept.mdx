@@ -13,6 +13,20 @@ However, the Zenith Driver by itself is not useful; it requires an application t
 Applications using the Zenith Driver can read and write to arbitrary Windows process and kernel memory, gaining deep insights into their state. 
 This allows for deep introspection of your PC's memory without leaving any traces of such activities.
 
+## Driver Variations
+The Zenith driver is available in two configurations:
+- Emulated TPM Mode – where Zenith attempts to emulate certain TPM commands.
+- Hardware TPM Mode – where Zenith relies on a reset-able, modified discrete TPM chip.
+
+The key difference between these modes lies in transparency and reliability.
+The emulated mode does not require any external hardware, making it easier to set up,
+but it is more likely to be flagged and therefore not recommended if full transparency is desired.
+
+In contrast, the **hardware TPM mode provides complete transparency** and significantly improves reliability and consistency, as Zenith interacts directly with real TPM hardware.
+However, it requires an externally modified TPM chip, which can be conveniently purchased through our Discord shop.
+
+More information on how to buy a discrete modified TPM chip can be found [here](../buying_discrete_tpm).
+
 ### Warning
 
 While the Valthrun Zenith Driver has been specifically designed to be as evasive as possible, it is important to note that no system or software can be guaranteed to remain completely undetectable in all circumstances. 

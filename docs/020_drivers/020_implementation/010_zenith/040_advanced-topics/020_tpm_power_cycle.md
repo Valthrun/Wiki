@@ -12,8 +12,14 @@ This document explains how Zenith can be configured to wait for the TPM to be po
 ## Requirements
 In order to perform a TPM power-cycle, you need a hardware-modified TPM chip.
 You can either purchase such a chip through the Valthrun Discord or modify an existing TPM yourself.
+Information on how to buy such TPM chip from Valthrun can be found in [buying a discrete TPM](../buying_discrete_tpm).
 
-If you decide to create such a chip on your own, you must modify the TPM in a way that allows it to be cleared during the UEFI boot stage — ensuring that the PCR registers are reset before Zenith begins emulating the legitimate boot process.
+If you decide to create such a chip on your own, you must modify the TPM in a way that allows it to be cleared during the UEFI boot stage. Ensuring that the PCR registers are reset before Zenith begins emulating the legitimate boot process.
 
-## Setup the loader
-Instructions on how to set up your Zenith bootable USB stick to wait for a power-cycled TPM and emulate a legitimate boot process will follow shortly.
+## Integration into Zenith
+Configuring Zenith to utilize a hardware-modified TPM chip and emulate a consistent, legitimate boot sequence is a straightforward process.
+When creating your Zenith USB stick, you will be asked whether you have a hardware-modified TPM chip installed. Simply select “Yes”, and the Zenith Installer will automatically configure everything for you.
+
+![Image TPM capabilities](@site/docs/_media/zenith_installer_tpm_variation.png)
+
+For a more detailed, step-by-step walkthrough, please refer to the installation guide [here](../installation/installation#Install-Valthrun-Zenith)
