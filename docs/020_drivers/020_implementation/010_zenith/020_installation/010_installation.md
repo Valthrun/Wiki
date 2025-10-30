@@ -14,7 +14,7 @@ In this step, we'll download the latest Zenith driver files from the official Va
 The installer always contains all required files for a complete installation. You can install different versions of Zenith by using different versions of the Zenith installer.
 
 1. Visit the [Downloads](https://valth.run/download) page.
-2. Download the latest `Zenith Driver` pacage.
+2. Download the latest `Zenith Driver` package.
 3. Extract the file including the installer from the downloaded ZIP file.
 
 ## Install Valthrun Zenith
