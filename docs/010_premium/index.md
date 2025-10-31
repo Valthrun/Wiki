@@ -31,7 +31,7 @@ https://valth.run/portal/profile/membership
 If you experience any issues with Zenith that cannot be resolved due to compatibility reasons, please don't hesitate to reach out to us on Discord. Our team will work to address the issue promptly. Additionally, if you lose any premium days as a result of the issue, we will restore them to ensure uninterrupted access to your services!
 
 ## Terms of Service
-The general [Terms of Service](http://valth.run/general/legal/tos) apply to all users. The following additional conditions specifically govern Premium memberships:
+The general [Terms of Service](https://wiki.valth.run/general/legal/tos) apply to all users. The following additional conditions specifically govern Premium memberships:
 
 1. Non-Transferability  
    Premium memberships are strictly personal and bound to the registered user account. They may not be shared, sublicensed, sold, or transferred to any other individual or organization under any circumstances.

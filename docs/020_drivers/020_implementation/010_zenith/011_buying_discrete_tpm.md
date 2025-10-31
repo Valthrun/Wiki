@@ -41,7 +41,7 @@ You can order directly through our [Discord server](../../../../general/discord)
 This manual review is required because each motherboard supports different TPM interfaces and pinouts.
 
 ## Terms and Conditions
-The general [Terms of Service](http://valth.run/general/legal/tos) apply to all users. 
+The general [Terms of Service](https://wiki.valth.run/general/legal/tos) apply to all users. 
 
 The following additional conditions specifically govern the purchase of a discrete TPM:
 - Payment is required upfront.
