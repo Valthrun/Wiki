@@ -19,26 +19,22 @@ To contribute by adding new pages to the Wiki, follow these steps:
 ## Previewing Changes
 To preview any changes you make to the Wiki pages before finalizing them, you can follow these steps:
 
-1. Install yarn
+
+1. Install project dependencies
    ```bash
-   npm i yarn -g
+   pnpm install
    ```
 
-2. Install project dependencies
+2. Start the project in development mode
    ```bash
-   yarn install
-   ```
-
-3. Start the project in development mode
-   ```bash
-   yarn start
+   pnpm start
    ```
    
    :::note
    To work on a translation, you must specify so when starting the project:
    ```bash
-   # yarn start --locale <local code>
-   yarn start --locale zh-cn
+   # pnpm start --locale <local code>
+   pnpm start --locale zh-cn
    ```
    :::
 
