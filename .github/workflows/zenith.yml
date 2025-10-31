@@ -11,21 +11,23 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 10
+
             - name: Set Node.js
               uses: actions/setup-node@v3
               with:
-                  node-version: latest
-                  cache: "yarn"
+                  node-version: 24
+                  cache: pnpm
 
-            - name: Run install
-              uses: borales/actions-yarn@v4
-              with:
-                  cmd: install
+            - name: Install dependencies
+              run: pnpm install
 
             - name: Build production bundle
-              uses: borales/actions-yarn@v4
-              with:
-                  cmd: build --config docusaurus-zenith.config.ts
+              run: pnpm build --config docusaurus-zenith.config.ts
 
             - name: Zip Build
               run: zip -r build.zip *
