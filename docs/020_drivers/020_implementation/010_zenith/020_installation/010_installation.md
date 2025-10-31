@@ -34,7 +34,7 @@ We'll use the Zenith installer to do this for us.
 3. **Select your TPM capabilities**  
    Please indicate whether your system has a discrete TPM with power-cycle capabilities installed.
    A discrete TPM with power-cycle support provides full transparency and hardware-level consistency, significantly reducing detection risks compared to emulated TPM setups.
-   For detailed information on how to obtain such a TPM chip, refer to [buying a discrete TPM](../../buying_discrete_tpm).
+   For detailed information on how to obtain such a TPM chip, refer to [buying a discrete TPM](../../discrete-tpm/buy).
 
    ![Image TPM capabilities](@site/docs/_media/zenith_installer_tpm_variation.png)
 

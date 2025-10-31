@@ -12,7 +12,7 @@ This document explains how Zenith can be configured to wait for the TPM to be po
 ## Requirements
 In order to perform a TPM power-cycle, you need a hardware-modified TPM chip.
 You can either purchase such a chip through the Valthrun Discord or modify an existing TPM yourself.
-Information on how to buy such TPM chip from Valthrun can be found in [buying a discrete TPM](../../buying_discrete_tpm).
+Information on how to buy such TPM chip from Valthrun can be found in [buying a discrete TPM](../../discrete-tpm/buy).
 
 If you decide to create such a chip on your own, you must modify the TPM in a way that allows it to be cleared during the UEFI boot stage. Ensuring that the PCR registers are reset before Zenith begins emulating the legitimate boot process.
 
