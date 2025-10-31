@@ -41,12 +41,12 @@ You can order directly through our [Discord server](../../../../general/discord)
 This manual review is required because each motherboard supports different TPM interfaces and pinouts.
 
 ## Terms and Conditions
+The general [Terms of Service](http://valth.run/general/legal/tos) apply to all users. 
+
+The following additional conditions specifically govern the purchase of a discrete TPM:
 - Payment is required upfront.
 - If the hardware does not work, a 50 % refund will be issued as compensation.
 - On delivery failure due to postal service, a 50 % refund will be issued.
 - On delivery failure due to an invalid address, a 25 % refund will be issued.
 - Estimated delivery time: 2–3 weeks, depending on hardware availability and shipping speed.
 - Terms and conditions may change at any time without prior notice.
-
-Please note that the above terms and conditions are for guidance only.
-Final, binding terms will be provided after the manual review and compatibility confirmation of your hardware.
