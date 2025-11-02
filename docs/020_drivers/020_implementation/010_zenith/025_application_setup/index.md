@@ -23,3 +23,20 @@ You can set this up using either:
 
 Both options provide the necessary hardware-level isolation required by the Zenith Driver for proper communication and operation.  
 A guide on how to setup the Windows Subsystem for Linux (WSL) can be found [here](./vm-wsl).
+
+## Unsafe: Running on the Host Instead
+<details>
+<summary>
+This section is hidden by default.
+Proceed with caution!
+</summary>
+
+
+:::danger
+This is **unsafe** — do **not** do this!  
+Proceed **only** if you fully understand **what** you are doing and **why** you are doing it.
+:::
+
+If you are absolutely certain and wish to use the Zenith driver on the host machine,
+set the `VTZ_ALLOW_HOST` environment variable to '1'.
+</details>
