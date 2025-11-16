@@ -22,7 +22,12 @@ Running the Enhancer on Linux is intended solely for use with Zenith in a VM!
    - [Download PUBG Enhancer (Linux)](https://github.com/Valthrun/Valthrun_PUBG/releases/latest)
 
 5. Open WSL.  
-6. Move and Rename Binaries:  
+6. Navigate to your Linux home directory:
+   ```bash
+   cd ~
+   ```
+
+7. Move and Rename Binaries:  
    Replace `<username>` with your actual Windows username and `[...]` with the correct version hash from the filenames.
 
    ```bash
@@ -30,7 +35,7 @@ Running the Enhancer on Linux is intended solely for use with Zenith in a VM!
    mv /mnt/c/Users/<username>/Downloads/pubg_enhancer_[...] pubg_enhancer
    ```
 
-7. Run the Enhancer:
+8. Run the Enhancer:
    ```bash
    ./pubg_enhancer
    ```
@@ -63,7 +68,16 @@ Running the Enhancer on Linux is intended solely for use with Zenith in a VM!
 
 1. Open WSL (Ubuntu) via the Start Menu or terminal.
 
-2. Move and rename the downloaded files from the Windows filesystem into your Linux environment.
+2. **Navigate to your Linux home directory:**
+   ```bash
+   cd ~
+   ```
+
+   :::warning Important
+   You **must** be in your Linux home directory (not in `/mnt/c/`) before moving the files. If you move the files while in the Windows mount directory, they will remain on the Windows filesystem. Running the binaries from the Windows filesystem will trigger anti-cheat detection by Windows filesystem filters.
+   :::
+
+3. Move and rename the downloaded files from the Windows filesystem into your Linux environment.
 
    Replace `<YourUsername>` with your actual Windows username, and update the filenames to match the version you downloaded (e.g., `driver_interface_zenith_ab12cd34ef.so`):
 
